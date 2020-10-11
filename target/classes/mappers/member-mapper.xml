@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC
+"-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="memberMapper">
+	
+	
+	<resultMap type="Member" id="resultMember">
+	<id property="member_no" column="member_no" />
+	<result property="id" column="id" />
+	<result property="pwd" column="pwd" />
+	<result property="name" column="name" />
+	<result property="phone" column="phone" />
+	<result property="birth" column="birth" />
+	<result property="gender" column="gender" />
+	<result property="email" column="email" />
+	<result property="ag_email" column="ag_email" />
+	<result property="enroll_date" column="enroll_date" />
+	<result property="last_modified" column="last_modified" />
+	<result property="child" column="child" />
+	<result property="status" column="status" />
+	</resultMap>
+
+	
+	<!-- 로그인  -->
+	<select id="selectLogin" parameterType="Member" resultMap="resultMember">
+		select * from member where id=#{id} and pwd=#{pwd}
+	</select>
+
+	<!-- 비밀번호 변경 3개월 유예 --><!--3개월 유예하면 오늘 날짜로 마지막 수정일 바뀜-->
+	<update id="updateDelayChgPwd" parameterType="String">
+		update  member set last_modified =sysdate where id=#{id}
+	</update>
+	
+	<!-- 비밀번호 변경 전 아이디와 비밀번호 확인 --> <!--비밀번호 변경제안/마이페이지에서의 정보 변경 두군데에서 이용  -->
+	<select id="selectCkPwd" parameterType="Member" resultType="int">
+		select count(*) from member where id=#{id} and pwd=#{pwd}
+	
+	</select>
+	
+	<!-- 비밀번호 변경하기 & 마지막 변경일 오늘 날짜로 변경 -->
+	<update id="updatePwd" parameterType="Member" >
+		update member set pwd=#{pwd}, last_modified=sysdate where id=#{id} 
+	</update>
+	
+	<!-- 아이디 중복 체크 -->
+	<select id="selectIdCheck" parameterType="String" resultType="int">
+		select count(*) from member where id=#{id}
+	</select>
+	
+	<!-- 이메일 중복 체크 -->
+	<select id="selectEmailCheck" parameterType="String" resultType="int">
+		select count(*) from member where email=#{email}	
+	</select>
+	
+	<!-- 아이디 찾기 -->
+	<select id="selectMemberFid" parameterType="Member" resultType="String">
+		select id from member where name=#{name} and email=#{email}
+	</select>
+	
+	<!-- 전체 회원 조회 -->
+	<select id="selectMemberList" parameterType="com.kh.danaa.member.model.vo.MemberPage" resultMap="resultMember">
+		 <![CDATA[
+		  SELECT member_no,id,name,phone,birth,gender,email,ag_email,enroll_date,last_modified,child,status
+	FROM (SELECT ROWNUM rnum, member_no,id,pwd,name,phone,birth,gender,email,ag_email,enroll_date,last_modified,child,status
+			FROM (SELECT * FROM member where status='1' ORDER BY member_no)) WHERE RNUM >= #{startRow} AND RNUM <= #{endRow} 		
+	]]>
+	</select>
+	
+	<!-- 아이디로 조회 -->
+	<select id="selectSearchid" parameterType="string" resultMap="resultMember">
+		select * from member 
+		where status='1' and id like '%' || #{ keyword } || '%' 		
+	</select>
+	
+	<!-- 이름으로 조회 -->
+	<select id="selectSearchName" parameterType="string" resultMap="resultMember">
+		select * from member 
+		where status='1' and name like '%' || #{ keyword } || '%' 		
+	</select>
+	
+	<!-- 성별로 조회 -->
+	<select id="selectSearchGender" parameterType="string" resultMap="resultMember">
+		select * from member 
+		where status='1' and gender = #{ keyword } 		
+	</select>
+	
+	<!-- 나이대로 조회 -->
+	<select id="selectSearchAge" parameterType="_int" resultMap="resultMember">
+		select member_no,id,name,phone,birth,gender,email,ag_email,enroll_date,last_modified,child,status 
+		from(select member_no,id,name,phone,birth,gender,email,ag_email,enroll_date,last_modified,child,status,
+		 trunc(months_between(trunc(sysdate), to_date(birth,'yyyymmdd')) / 12) age from member where status='1') 
+		<if test="value == 60">			
+			where age >= #{ keyword }
+		</if>
+		<if test="value != 60">
+			where age between #{ keyword } and #{ keyword } + 9
+		</if>		
+	</select>
+	
+	<!--전체 회원 조회 페이징을 위한 총 리스트 수 조회  -->
+	<select id="selectMemberGetListCount" resultType="_int">
+		select count(*) from member where status='1'
+	</select >
+	
+	<!-- 회원 조회를 위한 각각의 총 리스트 수 조회-->
+	<select id="selectGetListCountId" parameterType="string" resultType="_int">
+		select count(*) from member where status='1' and id like '%' || #{ keyword } || '%'
+	</select >
+	<select id="selectGetListCountName" parameterType="string" resultType="_int">
+		select count(*) from member where status='1' and name like '%' || #{ keyword } || '%'
+	</select >
+	<select id="selectGetListCountGen" parameterType="string" resultType="_int">
+		select count(*) from member where status='1' and gender = #{ keyword }
+	</select >
+	<select id="selectGetListCountAge" parameterType="_int" resultType="_int">		
+		select count(*) 
+		from(select member_no,id,name,phone,birth,gender,email,ag_email,enroll_date,last_modified,child,status,
+		 trunc(months_between(trunc(sysdate), to_date(birth,'yyyymmdd')) / 12) age from member where status='1') 
+		<if test="value == 60">			
+			where age >= #{ keyword }
+		</if>
+		<if test="value != 60">
+			where age between #{ keyword } and #{ keyword } + 9
+		</if>	
+	</select >
+	
+	<!--관리자 회원 탈퇴 처리--><!-- 유저 요청 탈퇴 처리도 같이 처리 -->
+	<delete id="deleteMemberAd" parameterType="String">
+		delete from member where id=#{id}
+	</delete>
+	
+	<!-- 비밀번호 찾기 이메일 요청시 입력정보 회원 일치 여부 확인 -->
+	<select id="selectChkMember" parameterType="Member" resultMap="resultMember">
+		select * from member where id=#{id} and email=#{email}
+	</select>
+	
+	<!-- 비밀번호 찾기 -임시 비밀번호로 비밀번호 바꾸기 -->
+	<update id="updateTempPwd" parameterType="Member">
+		update member set pwd=#{pwd} where id=#{id}
+	</update>
+	
+	<!-- 14세 이상 회원가입하기 (일반회원만 일단 했음)--> <!-- sns로 가입 어떻게하지 -->
+	<insert id="insertMember" parameterType="Member">
+		insert into member values(member_seq.nextval,#{id},#{pwd},#{name},#{phone},#{birth},#{gender},#{email},#{ag_email},sysdate,sysdate,#{child},1)
+	</insert>
+		
+	
+	<!-- sns 간편로그인 회원 정보 확인 -->
+	<select id="selectChkSns" parameterType="String" resultMap="resultMember">
+		select * from member where id=#{checkid}
+	</select>
+	
+	<!-- 휴대폰 중복번호 체크 -->
+	<select id="selectChkPhone" parameterType="String" resultType="_int">
+		select count(*) from member where phone = #{phone}
+	</select>
+	
+	<!-- 이메일 수신여부 바꾸기 Y->N-->
+	<update id="updateEmailag1" parameterType="Member">
+			update member set ag_email ='N' where id=#{id}
+	</update>
+	
+	<!-- 이메일 수신여부 바꾸기 N->Y-->
+	<update id="updateEmailag2" parameterType="Member">
+			update member set ag_email ='Y' where id=#{id}
+	</update>
+	
+	<!-- 회원정보 수정 -->
+	<update id="updateMemInfo" parameterType="Member">
+		update member set phone=#{phone}, birth=#{birth}, gender=#{gender}, email=#{email}, ag_email=#{ag_email} where id=#{id}
+	</update>
+	
+	<!-- 회원 한명 정보 불러오기 -->
+	<select id="selectOneMem" parameterType="String" resultMap="resultMember">
+		select * from member where id=#{id}
+	</select>
+	
+	<!-- 총 회원수(관리자는 제외)-->
+	<select id="selectMemberCount" resultType="int">
+		select count(*) from member where status='1'
+	</select>
+	
+	<!--휴대폰 번호로 아이디 찾기 -->
+	<select id="selectMemberFid2" parameterType="Member" resultType="String">
+		select id from member where name=#{name} and phone=#{phone}
+	</select>
+	
+	<!--휴대폰 번호로 비밀번호 찾기 -->
+	<select id="selectChkMem" parameterType="Member" resultType="int">
+		select count(*) from member where id=#{id} and phone=#{phone}
+	</select>
+	
+</mapper>

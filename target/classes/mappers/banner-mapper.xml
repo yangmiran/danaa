@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+"-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="bannerMapper">
+	<resultMap id="resultBanner" type="Banner">
+		<id property="bn_no" column="bn_no" />
+		<result property="bn_title" column="bn_title" />
+		<result property="bn_date" column="bn_date" />
+		<result property="bn_file" column="bn_file" />
+		<result property="bn_refile" column="bn_refile" />
+		<result property="bn_state" column="bn_state" />
+	</resultMap>
+	
+	<!-- <select id="selectAllBanner" resultType="Banner">
+		select * from mainbn
+	</select> -->
+	
+	<select id="selectOneBanner" parameterType="_int" resultMap="resultBanner">
+		select * from mainbn where bn_no = #{ bn_no }
+	</select>
+	
+	<!-- 메인배너에 노출여부에 따라 보여지게 -->
+	<select id="selectBanner" resultType="Banner">
+		select * from mainbn
+		where bn_state = 'Y'
+		order by bn_no desc
+	</select>
+	
+	<!-- 배너카운트 -->
+	<select id="selectBannerCount" resultType="_int">
+		select count(*) from mainbn
+	</select>
+	
+	<!-- 배너리스트 -->
+	<select id="selectListBanner" parameterType="com.kh.danaa.banner.model.vo.BannerPage" resultMap="resultBanner">
+	<![CDATA[
+		select *
+		from (select rownum rnum, bn_no, bn_title, bn_date, bn_file, bn_refile, bn_state
+			from(select * from mainbn order by bn_no desc))
+		where rnum >= #{startRow} and rnum <= #{endRow}
+	]]>
+	</select>
+	
+	<!-- 배너등록 -->
+	<insert id="insertBanner" parameterType="Banner">
+		insert into mainbn
+		values((select max(bn_no)+1 from mainbn), #{bn_title}, sysdate, #{bn_file}, #{bn_refile}, #{bn_state})
+	</insert>
+	
+	<!-- 삭제 -->
+	<delete id="deleteBanner" parameterType="Banner">
+		delete from mainbn where bn_no = #{bn_no}
+	</delete>
+	
+	<delete id="deleteMultiBanner" parameterType="_int">
+		delete from mainbn where bn_no = #{bn_no}
+	</delete>
+	
+	<!-- 배너수정 -->
+	<update id="updateBanner" parameterType="Banner">
+		update mainbn
+		set bn_title = #{ bn_title }, bn_state = #{ bn_state },
+		<if test="bn_file != null">
+			bn_file = #{ bn_file },
+			bn_refile = #{ bn_refile }
+		</if>
+		<if test="bn_file == null">
+			bn_file = null,
+			bn_refile = null
+		</if>
+		where bn_no = #{ bn_no }
+	</update>
+	
+	<!-- 배너검색:배너명 -->
+	<select id="selectSearchTit" parameterType="string" resultMap="resultBanner">
+		select * from mainbn
+		where bn_title like '%' || #{ keyword } || '%'
+	</select>
+	
+	<!-- 배너검색:노출여부 -->
+	<select id="selectSearchState" parameterType="string" resultMap="resultBanner">
+		select * from mainbn
+		where bn_state = #{ keyword }
+	</select>
+</mapper>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC
+"-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="eventMapper">
+	
+	
+	<resultMap type="Event" id="resultEvent">
+	<id property="event_no" column="event_no" />
+	<result property="event_title" column="event_title" />
+	<result property="event_content" column="event_content" />
+	<result property="event_period" column="event_period" />
+	<result property="event_file" column="event_file" />
+	<result property="event_thumb" column="event_thumb" />
+	<result property="event_state" column="event_state" />
+	</resultMap>
+
+	<!-- 이벤트 총 갯수 -->
+	<select id="selectListCount" resultType="_int">
+		select count(*) from event
+	</select>
+	
+	<!-- 이벤트 리스트 -->
+	<select id="selectListEvent" parameterType="com.kh.danaa.event.model.vo.EventPage" resultMap="resultEvent">
+		<![CDATA[
+		SELECT * 
+      	FROM (SELECT ROWNUM RNUM, event_no, event_title, event_content, event_period,
+      	event_file, event_thumb, event_state
+      		FROM (SELECT * FROM event
+      		ORDER BY event_no DESC))
+      	WHERE RNUM >= #{startRow} AND RNUM <= #{endRow}
+      	]]>
+	</select>
+	
+	<!-- 한개 보기 -->
+	<select id="selectEvent" parameterType="_int" resultMap="resultEvent">
+		select * from event where event_no = #{event_no}
+	</select>
+	
+	<!-- 이벤트 상세보기 -->
+	<select id="selectDetail" parameterType="_int" resultMap="resultEvent">
+		<![CDATA[
+			select * from (select * from event where event_no < #{event_no} order by event_no desc) where rownum = 1
+		]]>
+		union
+		select * from event where event_no = #{event_no}
+		union
+		<![CDATA[
+			select * from (select * from event where event_no > #{event_no} order by event_no asc) where rownum = 1
+		]]>
+	</select>
+	
+	
+	<!-- 검색 -->
+	<select id="selectSearch" parameterType="string" resultMap="resultEvent">
+		select * from event where event_title like '%' || #{keyword} || '%' order by event_no desc
+	</select>
+	
+	
+	<!-- 진행중인 이벤트 총 갯수 -->
+	<select id="selectProceedCount" resultType="_int">
+		select count(*) from event where event_state ='Y'
+	</select>
+	
+	<!-- 진행중인 이벤트 리스트 -->
+	<select id="selectProceedEvent" parameterType="com.kh.danaa.event.model.vo.EventPage" resultMap="resultEvent">
+		<![CDATA[
+		SELECT * 
+      	FROM (SELECT ROWNUM RNUM, event_no, event_title, event_content, event_period,
+      		event_file, event_thumb, event_state
+      		FROM (SELECT * FROM event
+      		where event_state='Y'
+      		ORDER BY event_no DESC))
+      	WHERE RNUM >= #{startRow} AND RNUM <= #{endRow}
+      	]]>
+	</select>
+	
+	
+	<!-- 종료된 이벤트 총 갯수 -->
+	<select id="selectEndCount" resultType="_int">
+		select count(*) from event where event_state ='N'
+	</select>
+	
+	<!-- 종료된 이벤트 리스트 -->
+	<select id="selectEndEvent" parameterType="com.kh.danaa.event.model.vo.EventPage" resultMap="resultEvent">
+		<![CDATA[
+		SELECT * 
+      	FROM (SELECT ROWNUM RNUM, event_no, event_title, event_content, event_period,
+      		event_file, event_thumb, event_state
+      		FROM (SELECT * FROM event
+      		where event_state='N'
+      		ORDER BY event_no DESC))
+      	WHERE RNUM >= #{startRow} AND RNUM <= #{endRow}
+      	]]>
+	</select>
+	
+	<!-- 공지글 등록 -->
+	<insert id="insertEvent" parameterType="Event">
+		insert into event
+	<if test="event_content != null">
+			values ( (select max(event_no)+1 from event), #{ event_title }, #{ event_content }, #{ event_period }, 
+			#{ event_file }, #{ event_thumb }, #{ event_state} )
+		</if>
+		<if test="event_content == null">
+			values ( (select max(event_no)+1 from event), #{ event_title }, null, #{ event_period }, 
+			#{ event_file }, #{ event_thumb }, #{ event_state} )
+		</if>
+	</insert>
+	
+	<delete id="deleteEvent" parameterType="Event">
+		delete from event where event_no = #{ event_no }
+	</delete>
+	
+	
+	<!-- 글 수정 -->
+	<update id="updateEvent" parameterType="Event">
+      update event 
+      set event_title = #{ event_title }, 
+         <!-- 텍스트 내용 있을때  -->
+         <if test="event_content != null"> 
+         event_content = #{ event_content }, 
+         </if>
+         <!-- 텍스트 내용 없을때 -->
+         <if test="event_content == null">
+         event_content = null,
+         </if>
+          event_period = #{ event_period },
+          event_file = #{ event_file },
+          event_thumb = #{ event_thumb },
+          event_state = #{ event_state }
+      where event_no = #{ event_no }
+   </update>
+	
+	<!-- 메인 진행중인 이벤트 리스트 -->
+	<select id="selectMainEvent" resultMap="resultEvent">
+		SELECT * FROM event
+      		where event_state='Y'
+      		ORDER BY event_no DESC
+	</select>
+</mapper>
+
+
+
+
+
+

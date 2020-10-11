@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC
+"-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="qnaMapper">
+	
+<resultMap type="Qna" id="resultQna">
+	<id property="qna_no" column="qna_no" />
+	<result property="qna_name" column="qna_name" />
+	<result property="qna_pwd" column="qna_pwd" />
+	<result property="qna_phone" column="qna_phone" />
+	<result property="qna_title" column="qna_title" />
+	<result property="qna_date" column="qna_date" />
+	<result property="qna_content" column="qna_content" />
+	<result property="qna_file" column="qna_file" />
+	<result property="qna_refile" column="qna_refile" />
+	<result property="qna_level" column="qna_level" />
+	<result property="qna_ref" column="qna_ref" />
+	<result property="qna_kinds" column="qna_kinds" />
+	
+</resultMap>
+	
+	<!-- 문의글 총 갯수  -->
+	<select id="selectListCount" resultType="_int">
+      select count(*) from qna
+   </select>
+	
+	<!-- 문의글 리스트 -->
+	<select id="selectListQna" parameterType="com.kh.danaa.qna.model.vo.QnaPage" resultMap="resultQna">
+		<![CDATA[
+		SELECT * 
+      	FROM (SELECT ROWNUM RNUM, qna_no, qna_name, qna_pwd, qna_phone,
+      		qna_title, qna_date, qna_content, qna_file, qna_refile, qna_level, qna_ref, qna_kinds
+      		FROM (SELECT * FROM qna
+      		ORDER BY qna_ref DESC, qna_level ASC))
+      	WHERE RNUM >= #{startRow} AND RNUM <= #{endRow}
+      	]]>
+	</select>
+	
+	<!-- 문의 원글 등록 -->
+	<insert id="insertOriginQna" parameterType="Qna">
+		insert into qna
+	<if test="qna_file != null">
+			values ( (select max(qna_no)+1 from qna), #{ qna_name }, #{	qna_pwd }, #{ qna_phone }, 
+			#{ qna_title }, default, #{ qna_content }, #{ qna_file }, #{ qna_refile }, 0, 
+			(select max(qna_no)+1 from qna), #{ qna_kinds } )
+		</if>
+		<if test="qna_file == null">
+			values ( (select max(qna_no)+1 from qna), #{ qna_name }, #{	qna_pwd }, #{ qna_phone }, 
+			#{ qna_title }, default, #{ qna_content }, null, null, 0, 
+			(select max(qna_no)+1 from qna), #{ qna_kinds } )
+		</if>
+	</insert>
+	
+	<!-- 문의 글 하나 선택 -->
+	<select id="selectOneQna" parameterType="_int" resultMap="resultQna">
+		select * from qna where qna_no = #{ qna_no }
+	</select>
+	
+	<!-- 글 삭제 -->
+	<delete id="deleteQna" parameterType="Qna">
+		delete from qna where qna_no = #{ qna_no }
+	</delete>
+	
+	<!-- 원글 수정 -->
+	<update id="updateOrigin" parameterType="Qna">
+      update qna 
+      set qna_title = #{ qna_title }, 
+         qna_content = #{ qna_content },
+         qna_phone = #{ qna_phone}, qna_kinds = #{ qna_kinds }, qna_pwd = #{qna_pwd},
+         <if test="qna_file != null"> 
+         qna_file = #{ qna_file }, 
+         qna_refile = #{ qna_refile } 
+         </if>
+         <if test="qna_file == null">
+         qna_file = null, 
+         qna_refile = null 
+         </if>
+      where qna_no = #{ qna_no }
+   </update>
+	
+	<!-- 답글 등록 -->
+	<insert id="insertReplyQna" parameterType="Qna">
+		insert into qna
+		values ( (select max(qna_no)+1 from qna), #{ qna_name }, #{	qna_pwd }, #{ qna_phone }, 
+			#{ qna_title }, default, #{ qna_content }, null, null, 
+			1, #{ qna_ref}, #{ qna_kinds } )
+	</insert>
+	
+	 <update id="updateReply" parameterType="Qna">
+      update qna 
+      set qna_title = #{ qna_title }, 
+         qna_content = #{ qna_content },
+         qna_phone = #{ qna_phone}, qna_kinds = #{ qna_kinds }, qna_pwd = #{qna_pwd},
+         qna_file = null, 
+         qna_refile = null 
+      where qna_no = #{ qna_no }
+   </update>
+	
+	<!-- 검색 -->
+	<select id="selectSearch" parameterType="string" resultMap="resultQna">
+		select * from qna where qna_title like '%' || #{keyword} || '%' order by qna_no desc
+	</select>
+	
+	<!-- ref 갯수 -->
+	<select id="selectRefCount" parameterType="_int" resultType="_int">
+		select count(*) from qna where qna_ref=#{ qna_no }
+	</select>
+	
+	<!-- 답글없는 글번호 -->
+	<select id="selectNoList" resultType="string">
+		select qna_ref from qna 
+		GROUP by qna_ref
+		having count(*) = 1
+		order by qna_ref desc
+	</select>
+	
+	
+</mapper>

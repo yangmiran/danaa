@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC
+"-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="doctorMapper">
+	<resultMap id="resultList" type="Doctor">
+		<id property="doc_no" column="doc_no" />
+		<result property="doc_name" column="doc_name" />
+		<result property="doc_day" column="doc_day" />
+		<result property="doc_pic" column="doc_pic" />
+	</resultMap>
+	
+	<!-- 의사 리스트 -->
+	<select id="selectDoctor" resultType="Doctor">
+		select * from doctor
+	</select>
+	
+	<!-- 의사 상세 -->
+	<select id="selectOne" parameterType="_int" resultType="Doctor">
+		select * from doctor
+		where doc_no = #{ doc_no }
+	</select>
+	
+	<!-- 의사 수정 -->
+	<update id="updateDoctor" parameterType="Doctor">
+		update doctor
+		set doc_name = #{ doc_name }, doc_day = #{ doc_day },
+		<if test="doc_pic != null">
+			doc_pic = #{ doc_pic }
+		</if>
+		<if test="doc_pic == null">
+			doc_pic = null
+		</if>
+		where doc_no = #{ doc_no }
+	</update>
+</mapper>

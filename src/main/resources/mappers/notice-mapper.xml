@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC
+"-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="noticeMapper">
+	
+<resultMap type="Notice" id="resultNotice">
+	<id property="notice_no" column="notice_no" />
+	<result property="notice_title" column="notice_title" />
+	<result property="notice_writer" column="notice_writer" />
+	<result property="notice_date" column="notice_date" />
+	<result property="notice_content" column="notice_content" />
+	<result property="notice_readcount" column="notice_readcount" />
+	<result property="notice_file" column="notice_file" />
+	<result property="notice_refile" column="notice_refile" />
+	
+</resultMap>
+
+<!-- 공지글 총 갯수  -->
+	<select id="selectListCount" resultType="_int">
+      select count(*) from notice
+   </select>
+
+<!-- 공지글 리스트 -->
+	<select id="selectListNotice" parameterType="com.kh.danaa.notice.model.vo.NoticePage" resultMap="resultNotice">
+		<![CDATA[
+		SELECT * 
+      	FROM (SELECT ROWNUM RNUM, notice_no, notice_title, notice_writer, notice_date,
+      		notice_content, notice_readcount, notice_file, notice_refile
+      		FROM (SELECT * FROM notice
+      		ORDER BY notice_no DESC))
+      	WHERE RNUM >= #{startRow} AND RNUM <= #{endRow}
+      	]]>
+	</select>
+	
+<!-- 공지글 등록 -->
+	
+	<insert id="insertNotice" parameterType="Notice">
+		insert into notice
+	<if test="notice_file != null">
+			values ( (select max(notice_no)+1 from notice), #{ notice_title }, #{ notice_writer }, sysdate, 
+			#{ notice_content }, default, #{ notice_file }, #{ notice_refile } )
+		</if>
+		<if test="notice_file == null">
+			values ( (select max(notice_no)+1 from notice), #{ notice_title }, #{ notice_writer }, sysdate, 
+			#{ notice_content }, default, null, null )
+		</if>
+	</insert>
+	
+	<!-- 조회수 -->
+	<update id="updateReadCount" parameterType="_int">
+		update notice
+		set notice_readcount = notice_readcount + 1
+		where notice_no = #{notice_no}
+	</update>
+	
+	<!-- 공지글 1개 선택 -->
+	<select id="selectNotice" parameterType="_int" resultMap="resultNotice">
+		select * from notice
+		where notice_no = #{notice_no}
+	</select>
+	
+	<!-- 공지글 삭제 -->
+	<delete id="deleteNotice" parameterType="Notice">
+		delete from notice where notice_no = #{ notice_no }
+	</delete>
+	
+	<!-- 공지글 수정 -->
+	<update id="updateNotice" parameterType="Notice">
+      update Notice 
+      set notice_title = #{ notice_title }, 
+         notice_content = #{ notice_content },
+         <if test="notice_file != null"> 
+         notice_file = #{ notice_file }, 
+         notice_refile = #{ notice_refile } 
+         </if>
+         <if test="notice_file == null">
+         notice_file = null, 
+         notice_refile = null 
+         </if>
+      where notice_no = #{ notice_no }
+   </update>
+   
+   <!-- 공지상세보기 (이전,현재,다음) -->
+   <select id="selectDetail" parameterType="_int" resultMap="resultNotice">
+  	 <![CDATA[
+			select * from (select * from notice where notice_no < #{notice_no} order by notice_no desc) where rownum = 1
+		]]>
+		union
+		select * from notice where notice_no = #{notice_no}
+		union
+		<![CDATA[
+			select * from (select * from notice where notice_no > #{notice_no} order by notice_no asc) where rownum = 1
+		]]>
+   
+   </select>
+   
+   
+	<!-- 다음글 -->
+	<select id="selectNext" parameterType="_int" resultMap="resultNotice">
+		<![CDATA[
+			select * from (select * from notice where notice_no > #{notice_no} order by notice_no asc) where rownum <=1
+		]]>
+	</select>
+	
+	<!-- 이전글 -->
+	<select id="selectPrev" parameterType="_int" resultMap="resultNotice">
+		<![CDATA[
+			select * from (select * from notice where notice_no < #{notice_no} order by notice_no desc) where rownum <=1
+		]]>
+	</select>
+	
+	<!-- 전 전글 타이틀 -->
+	<select id="selectPrevPrev" parameterType="_int" resultMap="resultNotice">
+		<![CDATA[
+			select * from (select * from (
+			select * from notice where notice_no < #{notice_no} order by notice_no desc) 
+			where rownum <=2 order by notice_no asc) where rownum <=1
+		]]>
+	</select>
+	
+	<!-- 다 다음글 타이틀 -->
+	<select id="selectNextNext" parameterType="_int" resultMap="resultNotice">
+		<![CDATA[
+			select * from (select * from (
+			select * from notice where notice_no > #{notice_no} order by notice_no asc) 
+			where rownum <=2 order by notice_no desc) where rownum <=1
+		]]>
+	</select>
+	<!-- 검색 -->
+	<select id="selectSearch" parameterType="string" resultMap="resultNotice">
+		select * from notice where notice_title like '%' || #{keyword} || '%' order by notice_no desc
+	</select>
+	
+	<!-- 공지사항 메인 top5 -->
+	<select id="selectNewTop5" resultMap="resultNotice">
+		<![CDATA[
+		select *
+		from (select rownum rnum, notice_no, notice_title, notice_date
+				from (select * from notice
+					order by notice_date desc))
+		where rnum >= 1 and rnum <= 5
+		]]>
+	</select>
+</mapper>

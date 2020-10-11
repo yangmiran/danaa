@@ -1,0 +1,70 @@
+[10:23:39][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[10:23:41][WARN ][AbstractApplicationContext.java:557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSession' defined in class path resource [root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'Member'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.member.model.vo.Member
+[10:23:41][ERROR][ContextLoader.java:312] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSession' defined in class path resource [root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'Member'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.member.model.vo.Member
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:830)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:400)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4689)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5155)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'Member'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.member.model.vo.Member
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:501)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 21 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'Member'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.member.model.vo.Member
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:121)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:98)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:498)
+	... 24 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'Member'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.member.model.vo.Member
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.typeAliasesElement(XMLConfigBuilder.java:176)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:109)
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.member.model.vo.Member
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.typeAliasesElement(XMLConfigBuilder.java:169)
+	... 27 more
+[10:25:08][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[10:25:11][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2265 ms
+[10:25:11][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[10:25:13][INFO ][FrameworkServlet.java:546] - Completed initialization in 1990 ms
+[10:25:18][WARN ][DispatcherServlet.java:1248] - No mapping for GET /danaa/main.do
+[10:26:20][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[10:26:23][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2340 ms
+[10:26:23][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[10:26:25][INFO ][FrameworkServlet.java:546] - Completed initialization in 1989 ms
+[10:26:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:26:29][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:26:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:26:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:26:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:01:44][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[12:01:46][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2520 ms
+[12:01:46][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[12:01:48][INFO ][FrameworkServlet.java:546] - Completed initialization in 2145 ms
+[12:02:13][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:02:13][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[12:02:13][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:02:13][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:02:14][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
