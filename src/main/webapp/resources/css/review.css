@@ -1,0 +1,133 @@
+@charset "UTF-8";
+.jmreview{
+	margin:100px; 0
+}
+/* 썸네일list */
+.reviewList .thumb_list {width:1200px;margin:0 auto;box-sizing:border-box;}
+.reviewList .thumb_tab {margin-bottom:50px;text-align:center;font-size:0;}
+.reviewList .thumb_tab li {display:inline-block;margin:.5%;}
+.reviewList .thumb_tab li a {display:block;width:100%;line-height:50px;font-size:20px;border:1px solid #bbb;box-sizing:border-box;color:#bbb;}
+.reviewList .thumb_tab li.on a {border:1px solid #0f4c82;color:#0f4c82;}
+.reviewList .thumb_tab li a.on {border:1px solid #0f4c82;color:#0f4c82;}
+.reviewList .thumb_tab2 li {width:49%;}
+.reviewList .thumb_tab3 li {width:32%;}
+.reviewList .thumb_tab4 li {width:24%;}
+.reviewList .thumb_tab5 li {width:19%;}
+.reviewList .thumb_tab6 li {width:15.7%;}
+.reviewList .thumb_tab7 li {width:11%;}
+.reviewList .thumb_list_con {width:100%;overflow:hidden;}
+.reviewList .thumb_list_con li {width:32%;margin:10px .5%;float:left;height:295px;}
+.reviewList .thumb_list_con a {display:block;width:100%;position:relative;}
+.reviewList .thumb_list_img {margin-bottom:10px;position:relative;height:256px;}
+.reviewList .thumb_list_img img {display:block;width:100%;height:100%;}
+.reviewList .thumb_list_cover {position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;background:rgba(0,0,0,.7);text-align:center;}
+.reviewList .thumb_list_cover p {color:#fff;font-size:20px;width:100%;position:absolute;top:50%;left:0;transform:translateY(-50%);-ms-transform:translateY(-50%);-webkit-transform:translateY(-50%);}
+.reviewList .thumb_list_txt {text-align:center;font-size:16px;}
+.reviewList .thumb_list_title {color:#252525;}
+.reviewList .thumb_list_date {color:#bbb;}
+.reviewList .thumb_list_con .nothing {float:none;width:100%;text-align:center;font-size:18px;}
+
+/* 썸네일list(전후사진) */
+.reviewList .thumb_list_con.bna_con li {width:24%;}
+.reviewList .thumb_list_con.bna_con .thumb_list_img {height:280px;overflow:hidden;}
+.reviewList .thumb_list_con.bna_con .thumb_list_img img {width:100%;float:left;}
+.reviewList .thumb_list_con.bna_con .thumb_list_cover {width:100%;position:relative;float:left;}
+.reviewList .thumb_list_con.bna_con .nothing {float:none;width}
+
+/* 유틸 */
+.reviewlist_util {clear:both;width:1200px;margin:50px auto;position:relative;}
+.reviewlist_util .btn_write {position:absolute;top:0;right:0;}
+.reviewlist_util .btn_write_m {display:none;}
+
+/* 기본셋팅 */
+body {margin:0;padding:0;font-size:16px;color:#181818;width:100%;position:relative;letter-spacing:-1px;font-family: 'notokr';}
+#wrap {width:100%;min-width:1300px;position:relative;overflow:hidden;}
+#container {z-index:1;}
+
+/* paging */
+.reviewlist_util .paging {text-align:center;height:42px;}
+.reviewlist_util .paging a {display:inline-block;padding:0 12px;font-size:14px;line-height:42px;}
+.reviewlist_util .paging .on {color:#0f4c82;text-decoration:underline;}
+.reviewlist_util .paging_arrow {padding:0;margin:0 2px;width:42px;height:42px;border:1px solid #ddd;box-sizing:border-box;font-size:0;}
+.reviewlist_util .paging .first {background:url("http://www.tatoa.co.kr/board/common/img/board_first.png") no-repeat center center;}
+.reviewlist_util .paging .prev {background:url("http://www.tatoa.co.kr/board/common/img/board_prev.png") no-repeat center center;}
+.reviewlist_util .paging .next {background:url("http://www.tatoa.co.kr/board/common/img/board_next.png") no-repeat center center;}
+.reviewlist_util .paging .last {background:url("http://www.tatoa.co.kr/board/common/img/board_last.png") no-repeat center center;}
+
+/* search */
+.reviewsearch {padding-top:50px;text-align:center;}
+.reviewsearch input {display:inline-block;width:300px;height:48px;vertical-align:top;}
+.reviewsearch select {display:inline-block; text-indent: 5px;width:100px;height:48px;vertical-align:top;}
+.reviewsearch input {vertical-align:top;}
+.reviewsearch a {vertical-align:top;}
+
+/* detailview */
+.reviewplain_view {width:1200px;margin:0 auto;border-top:2px solid #ccc;/* border-bottom:2px solid #ccc; */}
+.reviewplain_view_title {padding:30px; border-bottom:1px solid #ddd;padding-top: 50px;}
+.reviewplain_view_con {min-height:300px;padding:20px;/*text-align:center;*/}
+.reviewplain_view_title1 {overflow:hidden;}
+.reviewplain_view_title1 li:nth-child(1) {float:left;}
+.reviewplain_view_title1 li:nth-child(2) {float:right;}
+.reviewplain_view_title1 li {color:#999;font-size:16px;line-height:48px;}
+.reviewplain_view_title1 li h4 {color:#252525;font-size:36px;font-weight:bold;}
+.reviewplain_view_title2 {overflow:hidden;margin-top:30px;}
+.reviewplain_view_title2 li {float:left;padding:14px 30px;margin-right:10px;margin-bottom:10px;border-radius:30px;font-size:16px;color:#fff;font-weight:bold;background:#ababab;}
+.reviewplain_view_title2 li a {color:#fff;}
+.reviewplain_view_reply {padding:20px;border-top:1px solid #ddd;}
+.reviewplain_view_reply h4 {font-size:28px;color:#252525;font-weight:bold;margin-bottom:30px;}
+.reviewplain_view_btn {text-align:center;}
+.reviewplain_view_btn a {margin:0 5px;}
+.reviewplain_view_complete {margin-bottom:20px;}
+.reviewreviewlist_util {clear:both;width:1200px;margin:50px auto;position:relative;}
+.reviewprevnext {border-top:1px solid #ddd;overflow:hidden;padding:40px 0;}
+.reviewprevlist {float:left;padding-left:30px;overflow:hidden;background:url("http://www.tatoa.co.kr/board/common/img/prevlist.png") no-repeat left center;}
+.reviewnextlist {float:right;padding-right:30px;overflow:hidden;background:url("http://www.tatoa.co.kr/board/common/img/nextlist.png") no-repeat right center;}
+.reviewboard_title {width:1300px;margin:70px auto;}
+.reviewplain_list .name {width:150px;}
+.reviewplain_list th {font-size:16px;font-weight:bold;}
+.reviewplain_list tr {text-align:center;line-height:74px;border-bottom:1px solid #ddd;}
+
+
+/* button */
+.jmboard_btn {display:inline-block;text-align:center;padding:0 30px;line-height:47px;font-size:18px;box-sizing:border-box;}
+.reviewbtn_common {border:1px solid #0f4c82;background:#0f4c82;color:#fff;}
+.reviewbtn_white {border:1px solid #bbb;}
+.reviewbtn_black {border:1px solid #bbb;background:#bbb;color:#fff;}
+.btn_100 {width:100%;padding:0;margin:20px 0;}
+.btn_50 {width:195px;padding:0;}
+.btn_640 {width:640px;display:block;padding:0;margin:0 auto;}
+.btn_write {position:absolute;top:0;right:0;}
+.reviewjmboard {color:#292929;/*font-family: 'notokr-regular';*/}
+.reviewwrite_btn_box a {margin:0 5px;}
+.reviewbtn_white {border:1px solid #bbb;}
+.reviewwrite_btn_box {text-align:center;margin:40px 0;}
+.reviewsearch a {vertical-align:top;}
+.reviewbtn_black {border:1px solid #bbb;background:#bbb;color:#fff;}
+.reviewa {text-decoration:none; outline:none; color:#181818;}
+
+/* write */
+.reviewwrite_form .box>p {float:left;width:70px;line-height:30px;font-size:16px;font-weight:bold;}
+body {margin:0;padding:0;font-size:16px;color:#181818;width:100%;position:relative;letter-spacing:-1px;font-family: 'notokr';}
+#wrap {width:100%;min-width:1300px;position:relative;overflow:hidden;}
+#container {z-index:1;}
+article, aside, figure, figure img, figcaption, hgroup, footer, header, main, nav, section, video, object {display:block;  box-sizing:border-box;}
+.reviewwrite_form {width:1200px;padding:20px 40px;margin:0 auto;border-top:2px solid #ccc;border-bottom:2px solid #ccc;}
+form, fieldset, a img{ border:0; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, abbr, acronym, address, big, cite, code, ins, small, sub, sup {padding:0; margin:0;  box-sizing:border-box;}
+.reviewjmboard_box {margin:100px 0;}
+.reviewwrite_form h3 {margin-bottom:10px;}
+.reviewinput{ font-size:13px; color:#181818; vertical-align:middle; outline:none;}
+img, input, select{ vertical-align:middle;}
+a img, input, textarea, select, img{ vertical-align:middle; }
+.reviewbox {overflow:hidden;padding:10px 0;}
+.reviewinput1 {width:900px;font-size:16px;height:49px;padding:0 12px;box-sizing:border-box;border:1px solid #ddd;background:#fff;border-radius:0;-webkit-border-radius:0;}
+.reviewinput1{ font-size:13px; color:#181818; vertical-align:middle; outline:none;}
+.reviewinput2 {width:900px;font-size:16px;height:300px;padding:0 12px;box-sizing:border-box;border:1px solid #ddd;background:#fff;border-radius:0;-webkit-border-radius:0;}
+ 
+/*recomment*/
+.com_list {border-top: 1px solid #ccc;}
+.com_list tbody {}
+.com_list tbody tr.top th {padding: 30px 0;}
+.com_list .reviewlist_cmt {}
+.com_list tbody tr.list th {padding-bottom: 10px;}
+.com_list tbody tr.list th textarea {border: none;}

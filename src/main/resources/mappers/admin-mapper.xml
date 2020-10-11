@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+"-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="adminMapper">
+	<resultMap id="resultList" type="Admin">
+		<id property="admin_name" column="admin_name" />
+		<result property="admin_person" column="admin_person"/>
+		<result property="admin_no" column="admin_no"/>
+		<result property="admin_tel" column="admin_tel"/>
+		<result property="admin_fax" column="admin_fax"/>
+		<result property="admin_add" column="admin_add"/>
+		<result property="admin_time" column="admin_time"/>
+	</resultMap>
+	
+	<select id="selectAdmin" resultType="Admin">
+		select * from admin
+	</select>
+	
+	<update id="updateAdmin" parameterType="Admin">
+		update admin
+		set admin_name = #{ admin_name },
+			admin_person = #{ admin_person },
+			admin_no = #{ admin_no },
+			admin_tel = #{ admin_tel },
+			admin_fax = #{ admin_fax },
+			admin_add = #{ admin_add },
+			admin_time = #{ admin_time }
+	</update>
+</mapper>

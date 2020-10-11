@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*폰트*/
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+      
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ @font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap'); */
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+            
+/* font-family: 'Nanum Gothic', sans-serif; */
+/*font-family: 'Roboto', sans-serif;*/                     
+/*초기화*/
+.clear {*zoom:1}
+.clear:after {clear:both; display:block;content:''}
+.blind {display:none}
+input:focus {outline:none}
+div,p,span,table,th,td,ul,li,ol,dl,dt,dd,form,fieldset,input,textarea,select{margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0;font-weight:normal;}
+html {/* overflow-y:scroll*/}
+*{ margin:0; padding:0; list-style:none;font-family: 'GmarketSansLight', sans-serif;}
+body{min-width: 1200px;margin: 0 auto;font-weight: normal;}
+body, html { /* height: 100%; */margin:0;padding:0}
+ul,dl,dt,dd {margin:0;padding:0;list-style:none}
+img {max-width:100%; height:auto;border:0;}
+input, textarea, select{border: 1px solid #d1d1d1; font-size: 14px;resize: none;}
+label, input, button, select, img {vertical-align:middle;}
+button {cursor:pointer}
+iframe {border: 0;}
+table {border-spacing: 0;border: 0;outline: none;border-collapse:collapse;}
+address {font-style:normal}
+a {color:#000;text-decoration:none;border: 0;padding: 0;margin: 0;}
+*, :after, :before {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+button:focus, a:focus {outline: none;}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none;margin: 0;}

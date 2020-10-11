@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC
+"-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="reservationMapper">
+	<resultMap type="Reservation" id="resultReservation">
+		<id column="res_no" property="res_no" />
+		<result column="res_name" property="res_name" />
+		<result column="res_birth" property="res_birth" />
+		<result column="res_gender" property="res_gender" />
+		<result column="res_phone" property="res_phone" />
+		<result column="res_email" property="res_email" />
+		<result column="res_doctor" property="res_doctor" />
+		<result column="res_date" property="res_date" />
+		<result column="res_time" property="res_time" />
+		<result column="res_content" property="res_content" />
+		<result column="res_status" property="res_status" />
+		<result column="res_passwd" property="res_passwd" />
+		<result column="member_id" property="member_id" />
+	</resultMap>
+	
+	<resultMap type="Askform" id="resultAskform">
+		<id column="res_no" property="res_no" />
+		<result column="res_name" property="res_name" />
+		<result column="ask1" property="ask1" />
+		<result column="ask2" property="ask2" />
+		<result column="ask3" property="ask3" />
+		<result column="ask4" property="ask4" />
+	</resultMap>
+	
+	<resultMap type="Doctor" id="resultDoctor">
+		<id column="doc_no" property="doc_no" />
+		<result column="doc_name" property="doc_name" />
+		<result column="doc_day" property="doc_day" />
+		<result column="doc_pic" property="doc_pic" />
+	</resultMap>
+	
+	<select id="getResLee" resultType="_int">
+		select count(*) 
+		from reservation 
+		where res_doctor = 1
+		and res_date = TO_CHAR(SYSDATE, 'YY/MM/DD')
+		and res_name != '관리자'
+	</select>
+	
+	<select id="getResChae" resultType="_int">
+		select count(*) 
+		from reservation 
+		where res_doctor = 2
+		and res_date = TO_CHAR(SYSDATE, 'YY/MM/DD')
+		and res_name != '관리자'
+	</select>
+	
+	<select id="getResAhn" resultType="_int">
+		select count(*) 
+		from reservation 
+		where res_doctor = 3
+		and res_date = TO_CHAR(SYSDATE, 'YY/MM/DD')
+		and res_name != '관리자'
+	</select>
+	
+	<select id="getNotYet" resultType="_int">
+		select count(*) 
+		from reservation 
+		where res_status = 1
+	</select>
+	
+	<select id="getListCount" resultType="_int">
+		select count(*) from reservation where res_name != '관리자'
+	</select>
+	
+	<select id="getStatusListCount" parameterType="_int" resultType="_int">
+		select count(*) 
+		from reservation
+		where res_status = #{ res_status } and res_name != '관리자'
+	</select>
+	
+	<select id="getDocListCount" parameterType="_int" resultType="_int">
+		select count(*) 
+		from reservation
+		where res_doctor = #{ res_doctor } and res_name != '관리자'
+	</select>
+	
+	<select id="getAdListCount" resultType="_int">
+		select count(*) 
+		from reservation
+		where res_name = '관리자'
+	</select>
+	
+	<select id="getReserved" parameterType="Reservation" resultType="_int">
+		select count(*)
+		from reservation 
+		where res_doctor = #{ res_doctor }
+		and res_date = #{ res_date }
+		and res_time = #{ res_time }
+		and res_status != 4
+	</select>
+	
+	<select id="forAskform" parameterType="Reservation" resultMap="resultReservation">
+		select *
+		from reservation 
+		where res_doctor = #{ res_doctor }
+		and res_date = #{ res_date }
+		and res_time = #{ res_time }
+	</select>
+	
+	<select id="selectCalList" resultMap="resultReservation">
+		select * from reservation where res_name != '관리자'
+	</select>
+	
+	<select id="selectAllList" parameterType="com.kh.danaa.reservation.model.vo.ReservationPage" resultMap="resultReservation">
+		<![CDATA[
+		select * 
+		from (select rownum rnum, res_no, res_name, res_birth, res_gender, 
+					res_phone, res_email, res_doctor, res_date, 
+					res_time, res_content, res_status
+				from (select * from reservation where res_name != '관리자' order by res_no desc))
+		where rnum >= #{ startRow } and rnum <= #{ endRow }
+		]]>
+	</select>
+	
+	<select id="selectResDoctor" parameterType="com.kh.danaa.reservation.model.vo.ReservationPage" resultMap="resultReservation">
+		<![CDATA[
+		select * 
+		from (select rownum rnum, res_no, res_name, res_birth, res_gender, 
+					res_phone, res_email, res_doctor, res_date, 
+					res_time, res_content, res_status
+				from (select * from reservation where res_doctor = #{ res_check } order by res_no desc)) 
+		where rnum >= #{ startRow } and rnum <= #{ endRow }
+		]]>
+	</select>
+	
+	<select id="selectResStatus" parameterType="com.kh.danaa.reservation.model.vo.ReservationPage" resultMap="resultReservation">
+		<![CDATA[
+		select * 
+		from (select rownum rnum, res_no, res_name, res_birth, res_gender, 
+					res_phone, res_email, res_doctor, res_date, 
+					res_time, res_content, res_status
+				from (select * from reservation where res_status = #{ res_check } order by res_no desc)) 
+		where rnum >= #{ startRow } and rnum <= #{ endRow }
+		]]>
+	</select>
+	
+	<select id="selectResAdmin" parameterType="com.kh.danaa.reservation.model.vo.ReservationPage" resultMap="resultReservation">
+		<![CDATA[
+		select * 
+		from (select rownum rnum, res_no, res_doctor, res_date, res_time
+				from (select * from reservation where res_name = '관리자' order by res_date desc, res_time desc)) 
+		where rnum >= #{ startRow } and rnum <= #{ endRow }
+		]]>
+	</select>
+	
+	<select id="selectMyList" parameterType="String" resultMap="resultReservation">
+		select * 
+		from reservation 
+		where member_id = #{ member_id } 
+		order by res_no desc
+	</select>
+	
+	<select id="getCancelOk" parameterType="_int" resultType="_int">
+		select res_status
+		from reservation 
+		where res_no = #{ res_no }
+	</select>
+	
+	<select id="selectNonmemList" parameterType="Reservation" resultMap="resultReservation">
+		select * 
+		from reservation 
+		where res_name = #{ res_name } 
+		and res_phone = #{ res_phone }
+		and res_passwd = #{ res_passwd } 
+		order by res_no desc
+	</select>
+	
+	<select id="selectReservation" parameterType="_int" resultMap="resultReservation">
+		select * from reservation where res_no = #{ res_no }
+	</select>
+	
+	<select id="selectAskform" parameterType="_int" resultMap="resultAskform">
+		select * from askform where res_no = #{ res_no }
+	</select>
+	
+	<insert id="insertAdReservation" parameterType="Reservation">
+		insert into reservation 
+		values (RESERVATION_SEQ.NEXTVAL, 
+				'관리자', '010101', 'M', 
+				'010-0000-0000', 'admin', #{ res_doctor }, 
+				#{ res_date }, #{ res_time }, 'admin', 2, null, null)
+	</insert>	
+	
+	<insert id="insertMemReservation" parameterType="Reservation">
+		insert into reservation 
+		values (RESERVATION_SEQ.NEXTVAL, 
+				#{ res_name }, #{ res_birth }, #{ res_gender }, 
+				#{ res_phone }, #{ res_email }, #{ res_doctor }, 
+				#{ res_date }, #{ res_time }, #{ res_content }, 1, null, #{ member_id })
+	</insert>
+	
+	<insert id="insertNonmemReservation" parameterType="Reservation">
+		insert into reservation 
+		values (RESERVATION_SEQ.NEXTVAL, 
+				#{ res_name }, #{ res_birth }, #{ res_gender }, 
+				#{ res_phone }, #{ res_email }, #{ res_doctor }, 
+				#{ res_date }, #{ res_time }, #{ res_content }, 1, #{ res_passwd }, null)
+	</insert>
+	
+	<insert id="insertAskform" parameterType="Askform">
+		insert into askform 
+		values (#{ res_no }, #{ res_name }, #{ ask1 }, 
+			#{ ask2 }, #{ ask3 }, #{ ask4 })	
+	</insert>	
+	
+	<update id="confirmReservation" parameterType="_int">
+		update reservation 
+		set res_status = 2
+		where res_no = #{ res_no }
+	</update>
+	
+	<update id="completeReservation" parameterType="_int">
+		update reservation 
+		set res_status = 3
+		where res_no = #{ res_no }
+	</update>
+	
+	<update id="cancelReservation" parameterType="_int">
+		update reservation 
+		set res_status = 4
+		where res_no = #{ res_no }
+	</update>
+
+	<select id="selectDoctor" resultMap="resultDoctor">
+		select * from doctor
+	</select>
+	
+	<delete id="deleteReservation" parameterType="_int">
+		delete from reservation
+		where res_no = #{ res_no }
+	</delete>
+		
+	<update id="changeReservation" parameterType="Reservation">
+		update reservation
+		set res_doctor = #{ res_doctor}, res_date = #{ res_date }, res_time = #{ res_time }
+		where res_no = #{ res_no }
+	</update>
+</mapper>

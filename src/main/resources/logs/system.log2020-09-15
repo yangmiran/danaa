@@ -1,0 +1,1423 @@
+[09:25:33][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[09:25:35][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2506 ms
+[09:25:35][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[09:25:38][INFO ][FrameworkServlet.java:546] - Completed initialization in 2596 ms
+[09:25:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:25:38][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[09:25:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:25:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:25:39][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:25:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:25:41][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[09:25:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:25:42][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:25:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:26:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:26:50][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[09:26:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:26:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:26:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:27:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:27:30][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[09:27:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:27:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:27:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:28:46][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[12:28:49][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2901 ms
+[12:28:50][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[12:28:52][INFO ][FrameworkServlet.java:546] - Completed initialization in 2520 ms
+[12:28:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:28:52][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[12:28:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:28:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:28:52][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[12:28:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:28:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:28:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:28:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:28:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:28:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:28:55][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[12:28:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:28:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:28:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:29:24][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[12:29:27][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 3008 ms
+[12:29:27][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[12:29:30][INFO ][FrameworkServlet.java:546] - Completed initialization in 2936 ms
+[12:29:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:29:30][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[12:29:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:29:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:29:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:29:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:29:31][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[12:29:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:29:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:29:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:29:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:29:41][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[12:29:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:29:42][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:29:42][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:29:47][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:29:47][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdinfo.do
+[12:29:47][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:29:47][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:29:47][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:32:24][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:32:24][DEBUG][LoggerInterceptor.java:27] - /danaa/adbnlist.do
+[12:32:24][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:32:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:32:24][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:32:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:32:41][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdinfo.do
+[12:32:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:32:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:32:42][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:33:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:33:55][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdinfo.do
+[12:33:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:33:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:33:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:44:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:44:41][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[12:44:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:44:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:44:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:50:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:50:38][DEBUG][LoggerInterceptor.java:27] - /danaa/adbnlist.do
+[12:50:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:50:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:50:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:52:06][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:52:06][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[12:52:06][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:52:06][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:52:06][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[12:55:01][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[12:55:01][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[12:55:01][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[12:55:01][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[12:55:01][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[13:04:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[13:04:10][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[13:04:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[13:04:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[13:04:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[13:04:44][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[13:04:44][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[13:04:44][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[13:04:44][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[13:04:44][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[13:05:08][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[13:05:08][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[13:05:08][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[13:05:08][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[13:05:09][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[13:08:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[13:08:57][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[13:08:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[13:08:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[13:08:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:23:29][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[14:23:31][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2579 ms
+[14:23:31][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[14:23:34][INFO ][FrameworkServlet.java:546] - Completed initialization in 2614 ms
+[14:23:34][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:23:34][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[14:23:34][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:23:34][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:23:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:23:36][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:23:36][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[14:23:36][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:23:36][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:23:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:23:40][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:23:40][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[14:23:40][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:23:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:23:42][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:23:46][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:23:46][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[14:23:46][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:23:46][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:23:46][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:23:51][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:23:51][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdinfo.do
+[14:23:51][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:23:51][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:23:51][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:23:53][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:23:53][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[14:23:53][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:23:53][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:23:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:25:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:25:31][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[14:25:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:25:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:25:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:25:44][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:25:44][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[14:25:44][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:25:44][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:25:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:25:56][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:25:56][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[14:25:56][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:25:56][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:25:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:30:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:30:28][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdinfo.do
+[14:30:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:30:28][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:30:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:30:32][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:30:32][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[14:30:32][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:30:32][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:30:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:41:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:41:48][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[14:41:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:41:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:41:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:41:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:41:48][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[14:41:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:41:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:41:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:52:37][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:52:37][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[14:52:37][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:52:37][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:52:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:52:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:52:41][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[14:52:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:52:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:52:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:00:13][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[15:00:16][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2965 ms
+[15:00:16][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[15:00:18][INFO ][FrameworkServlet.java:546] - Completed initialization in 2698 ms
+[15:01:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:01:30][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:01:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:01:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:01:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:01:47][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:01:47][DEBUG][LoggerInterceptor.java:27] - /danaa/insertDisable.do
+[15:01:47][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:01:47][ERROR][Slf4jSpyLogDelegator.java:120] - 4. PreparedStatement.execute() insert into reservation 
+		values (RESERVATION_SEQ.NEXTVAL, 
+				관리자, 010101, M, 
+				010-0000-0000, admin, 1, 
+				to_date('10/26/2020 00:00:00', 'mm/dd/yyyy hh24:mi:ss'), '10:00', admin, 2, null, null)
+java.sql.SQLSyntaxErrorException: ORA-00984: column not allowed here
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:208)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1046)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3613)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3714)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1378)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at net.sf.log4jdbc.PreparedStatementSpy.execute(PreparedStatementSpy.java:418)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy8.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.kh.danaa.reservation.model.dao.ReservationDao.insertAdReservation(ReservationDao.java:126)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl.insertAdReservation(ReservationServiceImpl.java:131)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$FastClassBySpringCGLIB$$1562c92a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$EnhancerBySpringCGLIB$$5053a54b.insertAdReservation(<generated>)
+	at com.kh.danaa.reservation.controller.ReservationController.insertAdminReservation(ReservationController.java:538)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+[15:01:47][ERROR][Slf4jSpyLogDelegator.java:139] - 4. PreparedStatement.execute() FAILED! insert into reservation 
+		values (RESERVATION_SEQ.NEXTVAL, 
+				관리자, 010101, M, 
+				010-0000-0000, admin, 1, 
+				to_date('10/26/2020 00:00:00', 'mm/dd/yyyy hh24:mi:ss'), '10:00', admin, 2, null, null) {FAILED after 9 msec}
+java.sql.SQLSyntaxErrorException: ORA-00984: column not allowed here
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:208)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1046)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3613)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3714)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1378)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at net.sf.log4jdbc.PreparedStatementSpy.execute(PreparedStatementSpy.java:418)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy8.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.kh.danaa.reservation.model.dao.ReservationDao.insertAdReservation(ReservationDao.java:126)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl.insertAdReservation(ReservationServiceImpl.java:131)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$FastClassBySpringCGLIB$$1562c92a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$EnhancerBySpringCGLIB$$5053a54b.insertAdReservation(<generated>)
+	at com.kh.danaa.reservation.controller.ReservationController.insertAdminReservation(ReservationController.java:538)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+[15:01:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:04:15][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[15:04:18][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2633 ms
+[15:04:18][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[15:04:20][INFO ][FrameworkServlet.java:546] - Completed initialization in 2627 ms
+[15:04:21][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:04:21][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:04:21][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:04:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:04:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:04:32][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:04:32][DEBUG][LoggerInterceptor.java:27] - /danaa/insertDisable.do
+[15:04:32][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:04:33][ERROR][Slf4jSpyLogDelegator.java:120] - 4. PreparedStatement.execute() insert into reservation 
+		values (RESERVATION_SEQ.NEXTVAL, 
+				'관리자', 010101, M, 
+				010-0000-0000, 'admin', 1, 
+				to_date('09/28/2020 00:00:00', 'mm/dd/yyyy hh24:mi:ss'), '10:00', 'admin', 2, null, null)
+java.sql.SQLSyntaxErrorException: ORA-00984: column not allowed here
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:208)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1046)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3613)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3714)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1378)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at net.sf.log4jdbc.PreparedStatementSpy.execute(PreparedStatementSpy.java:418)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy8.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.kh.danaa.reservation.model.dao.ReservationDao.insertAdReservation(ReservationDao.java:126)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl.insertAdReservation(ReservationServiceImpl.java:131)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$FastClassBySpringCGLIB$$1562c92a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$EnhancerBySpringCGLIB$$b4f0930e.insertAdReservation(<generated>)
+	at com.kh.danaa.reservation.controller.ReservationController.insertAdminReservation(ReservationController.java:538)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+[15:04:33][ERROR][Slf4jSpyLogDelegator.java:139] - 4. PreparedStatement.execute() FAILED! insert into reservation 
+		values (RESERVATION_SEQ.NEXTVAL, 
+				'관리자', 010101, M, 
+				010-0000-0000, 'admin', 1, 
+				to_date('09/28/2020 00:00:00', 'mm/dd/yyyy hh24:mi:ss'), '10:00', 'admin', 2, null, null) {FAILED after 8 msec}
+java.sql.SQLSyntaxErrorException: ORA-00984: column not allowed here
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:208)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1046)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3613)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3714)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1378)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at net.sf.log4jdbc.PreparedStatementSpy.execute(PreparedStatementSpy.java:418)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy8.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.kh.danaa.reservation.model.dao.ReservationDao.insertAdReservation(ReservationDao.java:126)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl.insertAdReservation(ReservationServiceImpl.java:131)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$FastClassBySpringCGLIB$$1562c92a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$EnhancerBySpringCGLIB$$b4f0930e.insertAdReservation(<generated>)
+	at com.kh.danaa.reservation.controller.ReservationController.insertAdminReservation(ReservationController.java:538)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+[15:04:33][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:05:48][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[15:05:51][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2749 ms
+[15:05:51][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[15:05:54][INFO ][FrameworkServlet.java:546] - Completed initialization in 2499 ms
+[15:05:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:05:54][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:05:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:05:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:05:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:06:04][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:06:04][DEBUG][LoggerInterceptor.java:27] - /danaa/insertDisable.do
+[15:06:04][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:06:04][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:06:05][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:06:05][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:06:05][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:06:05][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:06:05][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:06:05][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:06:59][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:06:59][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:06:59][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:06:59][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:07:00][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:07:27][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:07:27][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:07:27][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:07:27][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:07:27][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:07:47][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:07:47][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:07:47][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:07:47][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:07:47][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:08:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:08:50][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:08:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:08:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:08:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:15:12][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:15:12][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:15:12][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:15:12][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:15:12][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:15:30][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[15:15:32][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2648 ms
+[15:15:33][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[15:15:35][INFO ][FrameworkServlet.java:546] - Completed initialization in 2490 ms
+[15:15:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:15:35][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:15:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:15:36][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:15:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:15:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:15:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:15:45][DEBUG][LoggerInterceptor.java:27] - /danaa/insertDisable.do
+[15:15:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:15:45][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[15:15:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:15:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:15:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:15:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:15:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:15:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:15:45][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:15:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:15:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:15:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:16:09][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:16:09][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[15:16:09][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:16:09][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:16:09][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:16:09][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:16:09][DEBUG][LoggerInterceptor.java:27] - /danaa/insertDisable.do
+[15:16:09][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:16:09][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:16:09][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:16:09][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:16:09][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:16:09][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:16:09][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:16:09][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:19:45][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[15:19:48][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2515 ms
+[15:19:48][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[15:19:51][INFO ][FrameworkServlet.java:546] - Completed initialization in 2553 ms
+[15:19:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:19:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:19:55][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[15:19:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:19:55][DEBUG][LoggerInterceptor.java:27] - /danaa/insertDisable.do
+[15:19:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:19:56][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:19:56][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:19:56][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:19:56][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:19:56][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:19:56][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:19:56][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:19:56][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:19:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:20:09][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:20:09][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:20:09][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:20:09][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:20:09][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:20:11][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:20:11][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:20:11][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:20:11][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:20:11][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:20:19][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:20:19][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[15:20:19][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:20:19][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:20:19][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:20:24][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:20:24][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[15:20:24][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:20:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:20:24][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:20:42][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:20:42][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[15:20:42][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:20:42][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:20:42][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:23:19][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:23:19][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:23:19][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:23:19][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:23:20][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:23:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:23:41][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:23:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:23:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:23:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:42:18][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[15:42:21][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2499 ms
+[15:42:21][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[15:42:23][INFO ][FrameworkServlet.java:546] - Completed initialization in 2396 ms
+[15:42:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:42:23][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:42:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:42:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:42:24][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:42:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:42:28][DEBUG][LoggerInterceptor.java:27] - /danaa/deleteDisable.do
+[15:42:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:42:28][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:42:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:42:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:42:28][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:42:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:42:28][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:42:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:43:31][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[15:43:34][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2514 ms
+[15:43:34][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[15:43:36][INFO ][FrameworkServlet.java:546] - Completed initialization in 2463 ms
+[15:43:37][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:43:37][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:43:37][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:43:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:43:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:43:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:43:41][DEBUG][LoggerInterceptor.java:27] - /danaa/deleteDisable.do
+[15:43:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:43:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:43:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:43:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:43:41][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:43:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:43:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:43:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:43:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:43:45][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:43:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:43:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:43:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:43:49][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:43:49][DEBUG][LoggerInterceptor.java:27] - /danaa/deleteDisable.do
+[15:43:49][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:43:49][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:43:49][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:43:49][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:43:49][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:43:49][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:43:49][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:43:49][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:44:13][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[15:44:16][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2631 ms
+[15:44:16][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[15:44:19][INFO ][FrameworkServlet.java:546] - Completed initialization in 2403 ms
+[15:44:19][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:44:19][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:44:19][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:44:20][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:44:20][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:44:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:44:23][DEBUG][LoggerInterceptor.java:27] - /danaa/deleteDisable.do
+[15:44:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:44:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:44:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:44:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:44:23][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:44:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:44:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:44:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:44:26][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:44:26][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:44:26][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:44:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:44:26][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:46:18][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:46:18][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:46:18][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:46:18][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:46:18][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:51:06][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:51:06][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:51:06][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:51:06][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:51:07][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:51:21][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:51:21][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:51:21][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:51:21][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:51:21][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:51:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:51:23][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:51:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:51:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:51:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:51:47][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:51:47][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:51:47][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:51:47][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:51:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:51:58][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:51:58][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:51:58][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:51:58][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:51:59][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:53:27][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:53:27][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:53:27][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:53:27][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:53:27][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:53:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:53:29][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:53:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:53:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:53:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:53:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:53:29][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:53:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:53:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:53:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:54:02][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:54:02][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:54:02][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:54:02][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:54:02][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:54:21][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:54:21][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:54:21][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:54:21][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:54:21][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:54:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:54:22][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:54:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:54:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:54:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:54:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:54:45][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:54:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:54:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:54:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:54:58][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:54:58][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:54:58][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:54:58][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:54:58][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:55:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:55:30][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[15:55:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:55:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:55:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:55:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:55:31][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:55:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:55:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:55:31][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:56:24][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:56:24][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[15:56:24][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:56:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:56:24][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:02:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:02:17][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:02:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:02:17][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:02:17][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:04:03][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:04:03][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:04:03][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:04:03][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:04:03][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:04:18][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:04:18][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:04:18][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:04:18][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:04:19][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:04:20][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:04:20][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:04:20][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:04:20][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:04:20][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:04:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:04:48][DEBUG][LoggerInterceptor.java:27] - /danaa/adbnlist.do
+[16:04:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:04:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:04:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:05:25][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:05:25][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:05:25][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:05:25][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:05:25][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:05:32][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:05:32][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:05:32][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:05:32][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:05:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:06:00][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:06:00][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:06:00][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:06:00][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:06:00][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:06:02][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:06:02][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:06:02][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:06:02][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:06:02][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:06:04][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:06:04][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:06:04][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:06:04][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:06:04][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:07:02][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:07:02][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[16:07:02][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:07:02][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:07:02][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:08:08][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:08:08][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[16:08:08][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:08:08][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:08:08][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:08:09][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:08:09][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[16:08:09][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:08:09][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:08:09][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:08:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:08:17][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:08:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:08:17][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:08:17][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:11:01][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:11:01][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:11:01][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:11:01][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:11:01][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:11:03][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:11:03][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:11:03][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:11:03][WARN ][AbstractHandlerExceptionResolver.java:197] - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'rno' is not present]
+[16:11:03][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:11:07][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:11:07][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:11:07][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:11:07][WARN ][AbstractHandlerExceptionResolver.java:197] - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'rno' is not present]
+[16:11:07][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:11:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:11:17][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:11:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:11:17][WARN ][AbstractHandlerExceptionResolver.java:197] - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'rno' is not present]
+[16:11:17][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:11:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:11:48][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:11:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:11:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:11:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:11:49][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:11:49][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:11:49][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:11:49][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:11:49][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:20:58][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:20:58][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:20:58][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:20:58][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:20:58][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:21:00][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:21:00][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:21:00][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:21:00][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:21:00][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:21:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:21:31][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:21:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:21:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:21:31][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:23:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:23:45][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:23:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:23:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:23:46][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:24:03][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:24:03][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:24:03][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:24:03][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:24:03][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:24:13][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:24:13][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:24:13][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:24:13][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:24:13][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:24:14][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:24:14][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:24:14][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:24:14][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:24:14][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:24:37][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:24:37][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:24:37][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:24:37][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:24:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:25:07][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:25:07][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:25:07][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:25:07][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:25:07][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:25:08][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:25:08][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:25:08][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:25:08][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:25:08][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:25:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:25:10][DEBUG][LoggerInterceptor.java:27] - /danaa/checkAskform.do
+[16:25:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:25:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:25:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:25:13][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:25:13][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:25:13][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:25:13][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:25:13][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:25:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:25:28][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:25:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:25:28][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:25:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:25:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:25:30][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:25:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:25:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:25:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:25:39][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:25:39][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:25:39][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:25:39][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:25:39][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:25:40][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:25:40][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:25:40][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:25:40][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:25:40][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:25:43][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:25:43][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:25:43][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:25:43][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:25:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:25:44][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:25:44][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:25:44][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:25:44][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:25:44][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:25:46][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:25:46][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:25:46][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:25:46][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:25:46][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:34][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:34][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:26:34][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:34][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:40][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:40][DEBUG][LoggerInterceptor.java:27] - /danaa/resConfirm.do
+[16:26:40][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:40][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:40][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:40][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:40][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:26:40][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:40][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:40][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:42][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:42][DEBUG][LoggerInterceptor.java:27] - /danaa/resCancelAdmin.do
+[16:26:42][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:42][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:42][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:42][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:42][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:26:42][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:42][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:42][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:42][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:42][DEBUG][LoggerInterceptor.java:27] - /danaa/resComplete.do
+[16:26:42][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:42][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:42][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:42][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:42][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:26:42][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:42][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:42][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:48][DEBUG][LoggerInterceptor.java:27] - /danaa/resConfirm.do
+[16:26:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:48][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:26:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:48][DEBUG][LoggerInterceptor.java:27] - /danaa/resConfirm.do
+[16:26:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:48][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:26:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:49][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:49][DEBUG][LoggerInterceptor.java:27] - /danaa/resConfirm.do
+[16:26:49][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:49][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:49][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:49][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:49][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:26:49][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:49][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:49][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:26:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:26:50][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:26:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:26:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:26:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:34:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:34:55][DEBUG][LoggerInterceptor.java:27] - /danaa/resCancelAdmin.do
+[16:34:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:34:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:34:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:34:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:34:55][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:34:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:34:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:34:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:35:02][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:35:02][DEBUG][LoggerInterceptor.java:27] - /danaa/resConfirm.do
+[16:35:02][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:35:02][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:35:02][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:35:02][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:35:02][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:35:02][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:35:02][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:35:02][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:35:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:35:23][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:35:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:35:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:35:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:35:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:35:57][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[16:35:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:35:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:35:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:39:04][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:39:04][DEBUG][LoggerInterceptor.java:27] - /danaa/checkAskform.do
+[16:39:04][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:39:04][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:39:04][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:39:59][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:39:59][DEBUG][LoggerInterceptor.java:27] - /danaa/checkAskform.do
+[16:39:59][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:39:59][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:40:00][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:40:34][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:40:34][DEBUG][LoggerInterceptor.java:27] - /danaa/checkAskform.do
+[16:40:34][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:40:34][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:40:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:40:53][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:40:53][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[16:40:53][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:40:53][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:40:53][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:46:46][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:46:46][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[16:46:46][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:46:46][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:46:46][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:46:51][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:46:51][DEBUG][LoggerInterceptor.java:27] - /danaa/resCancelAdmin.do
+[16:46:51][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:46:51][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:46:51][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:46:51][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:46:51][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[16:46:51][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:46:51][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:46:51][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:46:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:46:57][DEBUG][LoggerInterceptor.java:27] - /danaa/resConfirm.do
+[16:46:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:46:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:46:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:46:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:46:57][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[16:46:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:46:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:46:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:55:21][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:55:21][DEBUG][LoggerInterceptor.java:27] - /danaa/resByStatus.do
+[16:55:21][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:55:21][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:55:21][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:58:37][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:58:37][DEBUG][LoggerInterceptor.java:27] - /danaa/resConfirm.do
+[16:58:37][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:58:37][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:58:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:58:37][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:58:37][DEBUG][LoggerInterceptor.java:27] - /danaa/resByStatus.do
+[16:58:37][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:58:37][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:58:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:59:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:59:28][DEBUG][LoggerInterceptor.java:27] - /danaa/resByStatus.do
+[16:59:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:59:28][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:59:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:02:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:02:31][DEBUG][LoggerInterceptor.java:27] - /danaa/resByStatus.do
+[17:02:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:02:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:02:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:03:21][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:03:21][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[17:03:21][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:03:21][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:03:21][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:03:26][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:03:26][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[17:03:26][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:03:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:03:26][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:03:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:03:45][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[17:03:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:03:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:03:46][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:03:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:03:52][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[17:03:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:03:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:03:52][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:03:59][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:03:59][DEBUG][LoggerInterceptor.java:27] - /danaa/resByStatus.do
+[17:03:59][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:03:59][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:03:59][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:04:13][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:04:13][DEBUG][LoggerInterceptor.java:27] - /danaa/resByStatus.do
+[17:04:13][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:04:13][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:04:13][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:04:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:04:23][DEBUG][LoggerInterceptor.java:27] - /danaa/addetailRes.do
+[17:04:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:04:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:04:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:04:25][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:04:25][DEBUG][LoggerInterceptor.java:27] - /danaa/checkAskform.do
+[17:04:25][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:04:25][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:04:25][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:04:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:04:31][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[17:04:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:04:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:04:31][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:04:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:04:38][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[17:04:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:04:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:04:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:04:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:04:41][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[17:04:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:04:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:04:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:04:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:04:52][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[17:04:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:04:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:04:52][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:04:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:04:55][DEBUG][LoggerInterceptor.java:27] - /danaa/moveNres.do
+[17:04:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:04:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:04:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:05:01][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:05:01][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[17:05:01][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:05:01][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:05:01][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:07:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:07:41][DEBUG][LoggerInterceptor.java:27] - /danaa/moveNres.do
+[17:07:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:07:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:07:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:07:47][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:07:47][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[17:07:47][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:07:47][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:07:47][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:08:13][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:08:13][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[17:08:13][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:08:13][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:08:13][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:08:39][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:08:39][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[17:08:39][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:08:39][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:08:39][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:08:42][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:08:42][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[17:08:42][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:08:42][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:08:42][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:08:49][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:08:49][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[17:08:49][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:08:49][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:08:49][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:08:49][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:08:49][DEBUG][LoggerInterceptor.java:27] - /danaa/insertDisable.do
+[17:08:49][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:08:49][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:08:49][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:08:49][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:08:49][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[17:08:49][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:08:49][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:08:49][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:09:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:09:10][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[17:09:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:09:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:09:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:09:13][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:09:13][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[17:09:13][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:09:13][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:09:13][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:09:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:09:22][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[17:09:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:09:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:09:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:09:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:09:22][DEBUG][LoggerInterceptor.java:27] - /danaa/insertDisable.do
+[17:09:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:09:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:09:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:09:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:09:22][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[17:09:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:09:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:09:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:09:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:09:55][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[17:09:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:09:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:09:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:10:00][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:10:00][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[17:10:00][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:10:00][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:10:00][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:10:11][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:10:11][DEBUG][LoggerInterceptor.java:27] - /danaa/moveCheckRes.do
+[17:10:11][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:10:11][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:10:11][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:10:13][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:10:13][DEBUG][LoggerInterceptor.java:27] - /danaa/moveNres.do
+[17:10:13][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:10:13][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:10:13][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:10:21][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:10:21][DEBUG][LoggerInterceptor.java:27] - /danaa/checkReserved.do
+[17:10:21][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:10:21][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:10:21][DEBUG][LoggerInterceptor.java:50] - ============== END ==============

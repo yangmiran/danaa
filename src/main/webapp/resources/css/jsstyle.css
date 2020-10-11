@@ -1,0 +1,233 @@
+/* 일반list */
+.plain_list {width:1200px;margin:0 auto;border-top:2px solid #ccc;border-bottom:2px solid #ccc;}
+.plain_list tr {text-align:center;line-height:74px;border-bottom:1px solid #ddd;}
+.plain_list th {font-size:16px;font-weight:bold;}
+.plain_list td {font-size:16px;}
+.plain_list td.title {text-align:left;font-size:18px;padding:0 20px;}
+.plain_list td.title a {display:block;}
+.plain_list td.title img {display:inline-block;margin-left:5px;vertical-align:middle;}
+.plain_list td.date {color:#bbb;}
+.plain_list .nothing {display:table-cell;text-align:center;}
+.plain_list .m_list {display:none;}
+
+/* 일반list 너비 사이트에 맞게 조절_제목은 자동조절 */
+.plain_list .num {width:100px;}
+.plain_list .mode {width:100px;}
+.plain_list .item {width:150px;}
+.plain_list .name {width:150px;}
+.plain_list .date {width:130px;}
+.plain_list .state {width:130px;}
+.plain_list .count {width:150px;}
+
+/*페이지네이션*/
+.pagingWrap {margin: 30px auto;text-align:center}
+.pagingWrap .paging {}
+.pagingWrap .paging li {display:inline-block;width:34px;height:34px;text-align:center;line-height:34px;border:1px solid #e8e8e8;box-sizing:border-box;cursor:pointer;transition: color 0.5s ease;}
+.pagingWrap .paging li.arrow {border:none}
+.pagingWrap .paging li.arrow:hover {background:none;color:#6f6f6f}
+.pagingWrap .paging li:hover {background:#142a45;color:#fff}
+.pagingWrap .paging li.on {background:#142a45;color:#fff}
+
+/* 버튼(공통) */
+.qna_btn {display:inline-block;text-align:center;padding:0 30px;line-height:47px;font-size:18px;box-sizing:border-box;}
+.qnaw_btn {display:inline-block;text-align:center;padding:0 30px;line-height:47px;font-size:18px;box-sizing:border-box; margin-left:1000px;} <!-- 글쓰기버튼 위치 -->
+
+.btn_white {border:1px solid #bbb;}
+.btn_black {border:1px solid #bbb;background:#bbb;color:#fff;}
+.btn_100 {width:100%;padding:0;margin:20px 0;}
+.btn_50 {width:195px;padding:0;}
+.btn_640 {width:640px;display:block;padding:0;margin:0 auto;}
+
+
+/* write */
+.qnaWrite .write_form {width:1200px;padding:20px 40px;margin:0 auto;border-bottom:2px solid #ccc;}
+.qnaWrite .write_form h6 {margin-bottom:10px;}
+.qnaWrite .write_form input[type=checkbox] {width:15px;height:15px;}
+.qnaWrite .write_form .box {overflow:hidden;padding:10px 0;}
+.qnaWrite .write_form .box>p {float:left;width:150px;line-height:49px;font-size:16px;font-weight:bold;}
+.qnaWrite .write_form .box>p b{display:inline-block;font-size:20px;vertical-align:middle;color:red;font-weight:normal;}
+.qnaWrite .write_form .input {float:left;}
+.qnaWrite .write_form .input1 {width:887px;}
+.qnaWrite .board_email {width:278px;}
+.qnaWrite select.board_email {width:275px;}
+.qnaWrite .board_pw {width:293px;}
+.qnaWrite .board_phone {width:174px;}
+.qnaWrite .write_form #captcha_img {height:35px;margin-right:10px;}
+.qnaWrite .write_form .contents textarea {width:590px;height:180px;}
+.qnaWrite .write_form .contents .input {width:887px;}
+.qnaWrite .write_form .privacy_box {width:1037px;height:150px;padding:20px;overflow-y:auto;border:1px solid #ddd;text-align:left;}
+.qnaWrite .write_form .agreebox {display:block;position:relative;overflow:hidden;}
+.qnaWrite .write_form .agreebox input[type=checkbox] {position:absolute;visibility:hidden;z-index:1;}
+.qnaWrite .write_form .agreebox i {display:inline-block;float:left;width:25px;height:25px;box-sizing:border-box;border:1px solid #ddd;border-radius:50%;position:relative;}
+.qnaWrite .write_form .agreebox i:after {content:'';display:inline-block;width:50%;height:50%;background:#fff;border-radius:inherit;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);}
+.qnaWrite .write_form .agreebox input:checked + i:after {background:#0f4c82;}
+.qnaWrite .write_form .agreebox span {display:inline-block;margin-left:10px;line-height:25px;}
+.qnaWrite .write_form .symbol {display:inline-block;text-align:center;width:28px;}
+.qnaWrite .write_form .symbol.empty {width:18px;}
+.qnaWrite .write_form .sms_agree .input {overflow:hidden;}
+.qnaWrite .write_form .sms_agree label {display:inline-block;float:left;margin-top:12px;margin-right:20px;}
+.qnaWrite .write_btn_box {text-align:center;margin:40px 0;}
+.qnaWrite .write_btn_box a {margin:0 5px;}
+.qnaWrite input {font-size:16px;height:49px;padding:0 12px;box-sizing:border-box;border:1px solid #ddd;background:#fff;border-radius:0;-webkit-border-radius:0;}
+.qnaWrite #wrap select {
+   -webkit-appearance: none; 
+   -moz-appearance: none;    
+   appearance: none;
+   background: url("http://www.tatoa.co.kr/board/common/img/select_arrow.png") right 5px center no-repeat;      
+}
+.qnaWrite .jmboard select {height:49px;font-size:16px;padding-left:12px;box-sizing:border-box;border:1px solid #ddd;letter-spacing:-1.5px;background-color:#fff;border-radius:0;-webkit-border-radius:0;}
+.qnaWrite .write_btn_box .btn_common {border:1px solid #0f4c82;background:#0f4c82;color:#fff;}
+.qnaWrite .write_form .input input[type=file]{border: none;padding-left:0}
+
+input, textarea, select{font-size:16px;height:49px;padding:0 12px;box-sizing:border-box;border:1px solid #ddd;background:#fff;border-radius:0;-webkit-border-radius:0;}
+
+/* 일반view */
+.qnaDetail {margin-top:80px;}
+.qnaDetail .plain_view {width:1200px;margin:0 auto;border-top:2px solid #ccc;border-bottom:2px solid #ccc;}
+.qnaDetail .plain_view_title {padding:30px; border-bottom:1px solid #ddd;}
+.qnaDetail .plain_view_con {min-height:300px;padding:20px;/*text-align:center;*/}
+.qnaDetail .plain_view_title1 {overflow:hidden;}
+.qnaDetail .plain_view_title1 li:nth-child(1) {float:left;}
+.qnaDetail .plain_view_title1 li:nth-child(2) {float:right;}
+.qnaDetail .plain_view_title1 li {color:#999;font-size:16px;line-height:48px;}
+.qnaDetail .plain_view_title1 li h4 {color:#252525;font-size:36px;font-weight:bold;}
+.qnaDetail .plain_view_title2 {overflow:hidden;margin-top:30px;}
+.qnaDetail .plain_view_title2 li {float:left;padding:14px 30px;margin-right:10px;margin-bottom:10px;border-radius:30px;font-size:16px;color:#fff;font-weight:bold;background:#ababab;}
+.qnaDetail .plain_view_title2 li a {color:#fff;}
+.qnaDetail .plain_view_reply {padding:20px;border-top:1px solid #ddd;}
+.qnaDetail .plain_view_reply h4 {font-size:28px;color:#252525;font-weight:bold;margin-bottom:30px;}
+.qnaDetail .plain_view_btn {text-align:center;}
+.qnaDetail .plain_view_btn a {margin:0 5px;}
+.qnaDetail .plain_view_complete {margin-bottom:20px;}
+
+.qnaDetail2 {margin-top:80px;}
+.qnaDetail2 .plain_view {width:1200px;margin:0 auto;border-top:2px solid #ccc;border-bottom:2px solid #ccc;}
+.qnaDetail2 .plain_view_title {padding:30px; border-bottom:1px solid #ddd;}
+.qnaDetail2 .plain_view_con {min-height:300px;padding:20px;/*text-align:center;*/}
+.qnaDetail2 .plain_view_title1 {float: left;overflow:hidden;}
+.qnaDetail2 .plain_view_title1 li {color:#999;font-size:16px;line-height:48px;}
+.qnaDetail2 .plain_view_title1 li h4 {color:#252525;font-size:36px;font-weight:bold;}
+.qnaDetail2 .plain_view_title2 {overflow:hidden;margin-top:30px;}
+.qnaDetail2 .plain_view_title2 li {float:left;padding:14px 30px;margin-right:10px;margin-bottom:10px;border-radius:30px;font-size:16px;color:#fff;font-weight:bold;background:#ababab;}
+.qnaDetail2 .plain_view_title2 li a {color:#fff;}
+.qnaDetail2 .plain_view_reply {padding:20px;border-top:1px solid #ddd;}
+.qnaDetail2 .plain_view_reply h4 {font-size:28px;color:#252525;font-weight:bold;margin-bottom:30px;}
+.qnaDetail2 .plain_view_btn {text-align:center;}
+.qnaDetail2 .plain_view_btn a {margin:0 5px;}
+.qnaDetail2 .plain_view_complete {margin-bottom:20px;}
+.qnaDetail2 .plain_view_title1 ul {}
+.qnaDetail2 p.day {float:right}
+
+.qnaDetail2 .prevnext {border-top:1px solid #ddd;overflow:hidden;padding:40px 0;}
+.qnaDetail2 .prevnext div {height:25px;}
+.qnaDetail2 .prevnext a {display:block;height:100%;}
+.qnaDetail2 .prevnext p {font-size:16px;line-height:25px;}
+.qnaDetail2 .prevlist {float:left;padding-left:30px;overflow:hidden;background:url("http://www.tatoa.co.kr/board/common/img/prevlist.png") no-repeat left center;}
+.qnaDetail2 .prevlist p {float:left;color:#b7b7b7;}
+.qnaDetail2 .prevlist p:nth-child(1):after {content:'';display:inline-block;width:1px;height:14px;margin:0 12px;margin-bottom:-2px;background:#ccc;}
+.qnaDetail2 .prevlist p:nth-child(2),.nextlist p:nth-child(2) {width:450px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.qnaDetail2 .nextlist p:nth-child(2) {text-align:right;}
+.qnaDetail2 .nextlist {float:right;padding-right:30px;overflow:hidden;background:url("http://www.tatoa.co.kr/board/common/img/nextlist.png") no-repeat right center;}
+.qnaDetail2 .nextlist p {float:right;color:#666;}
+.qnaDetail2 .nextlist p:nth-child(1):before {content:'';display:inline-block;width:1px;height:14px;margin:0 12px;margin-bottom:-2px;background:#ccc;}
+.qnaDetail2 .detailbtn {margin-top: 50px;text-align:center}
+.qnaDetail2 .detailbtn .btn_common {border:1px solid #0f4c82;background:#0f4c82;color:#fff;}
+
+
+/* 이전글/다음글*/
+.qnaDetail .prevnext {border-top:1px solid #ddd;overflow:hidden;padding:40px 0;}
+.qnaDetail .prevnext div {height:25px;}
+.qnaDetail .prevnext a {display:block;height:100%;}
+.qnaDetail .prevnext p {font-size:16px;line-height:25px;}
+.qnaDetail .prevlist {float:left;padding-left:30px;overflow:hidden;background:url("http://www.tatoa.co.kr/board/common/img/prevlist.png") no-repeat left center;}
+.qnaDetail .prevlist p {float:left;color:#b7b7b7;}
+.qnaDetail .prevlist p:nth-child(1):after {content:'';display:inline-block;width:1px;height:14px;margin:0 12px;margin-bottom:-2px;background:#ccc;}
+.qnaDetail .prevlist p:nth-child(2),.nextlist p:nth-child(2) {width:450px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.qnaDetail .nextlist p:nth-child(2) {text-align:right;}
+.qnaDetail .nextlist {float:right;padding-right:30px;overflow:hidden;background:url("http://www.tatoa.co.kr/board/common/img/nextlist.png") no-repeat right center;}
+.qnaDetail .nextlist p {float:right;color:#666;}
+.qnaDetail .nextlist p:nth-child(1):before {content:'';display:inline-block;width:1px;height:14px;margin:0 12px;margin-bottom:-2px;background:#ccc;}
+.qnaDetail .detailbtn {margin-top: 50px;text-align:center}
+.qnaDetail .detailbtn .btn_common {border:1px solid #0f4c82;background:#0f4c82;color:#fff;}
+
+/*비밀번호 체크*/
+#wrap select::-ms-expand {display: none;}
+.jmboard {color:#292929;/*font-family: 'notokr-regular';*/}
+.jmboard input {font-size:16px;height:49px;padding:0 12px;box-sizing:border-box;border:1px solid #ddd;background:#fff;border-radius:0;-webkit-border-radius:0;}
+.jmboard input::-webkit-input-placeholder {color:#bbb;}
+.jmboard input::-ms-input-placeholder {color:#bbb;}
+.jmboard input::placeholder {color:#bbb;}
+.jmboard select {height:49px;font-size:16px;padding-left:12px;box-sizing:border-box;border:1px solid #ddd;letter-spacing:-1.5px;background-color:#fff;border-radius:0;-webkit-border-radius:0;}
+.jmboard textarea {padding:12px;font-size:16px;box-sizing:border-box;border:1px solid #ddd;text-align:left;font-family:Arial;background-color:#fff;border-radius:0;-webkit-border-radius:0;}
+.jmboard_box {margin:100px 0;}
+.red {color:#ff1818;}
+.green { color:green; }
+.new {display:inline-block;font-size:13px;color:#0f4c82;font-weight:bold;margin-left:4px;}
+.txt_wait {color:#0f4c82;}
+
+/* 비번/로그인 팝업 */
+#dim_pw {display:none;}
+.dim {z-index:999999;position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;background:rgba(0,0,0,.7);}
+.dim_contents {width:640px;padding:70px 88px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);background:#fff;}
+.dim_contents input {margin-bottom:10px;}
+.dim_contents .input1 {width:100%;}
+.auth_title {margin-bottom:50px;text-align:center;}
+.auth_title h4 {;font-size:35px;font-weight:bold;color:#3e3e3f;}
+.auth_title p {font-size:16px;line-height:23px;color:#727272;}
+.btn_dim {margin:20px 0;width:100%;height:46px;line-height:46px;}
+.dim_close {cursor:pointer;position:absolute;top:10px;right:10px;font-size:32px;}
+#pwd_err {font-size:15px;margin-top:10px;}
+.login_keep {display:block;position:relative;overflow:hidden;}
+.login_keep #login_keep {position:absolute;visibility:hidden;z-index:1;}
+.login_keep i {width: 90px;height: 25px;float: left;border-radius: 20px;background:#eaeaea;color:#fff;font-size:16px;font-weight:bold;font-style: normal;transition: all .3s;-webkit-transition: all .3s;}
+.login_keep i:after {content: 'OFF';position:relative;z-index:10;display:inline-block;background:#777;width: 50%;text-align:center;height: 100%;line-height:27px;border-radius: inherit;transition: inherit;-webkit-transition: inherit;}
+.login_keep input:checked + i:after {content: 'ON';margin-left: 50%;background:#0f4c82;}
+.login_keep_txt {position:absolute;top:0;left:10px;width:100%;line-height:27px;font-size:16px;color:#fff;font-weight:bold;}
+.login_keep_txt p {float:left;}
+.login_keep_txt p:nth-child(1) {margin-right:16px;}
+.login_keep span {display:inline-block;margin-left:10px;line-height:25px;}
+.sns_login {margin-bottom:40px;height:47px;text-align:center;font-size:0;}
+.sns_login a {width:149px;height:100%;display:inline-block;font-size:0;color:transparent;margin-right:8px;}
+.sns_login a:nth-child(1) {background:url("http://www.tatoa.co.kr/board/common/img/login_naver.png") no-repeat center center;background-size:100%;}
+.sns_login a:nth-child(2) {background:url("http://www.tatoa.co.kr/board/common/img/login_fb.png") no-repeat center center;background-size:100%;}
+.sns_login a:nth-child(3) {background:url("http://www.tatoa.co.kr/board/common/img/login_kko.png") no-repeat center center;background-size:100%;margin-right:0;}
+.dim_auth {padding:15px 0;text-align:center;border:1px solid #f2f2f2;box-sizing:border-box;}
+.dim_auth li {display:inline-block;}
+.dim_auth li a {display:block;padding:0 10px;font-size:18px;}
+.dim_auth li a:after {content:'';margin-left:20px;display:inline-block;width:1px;height:10px;background:#bbb;}
+.dim_auth li:last-child a:after {content:none;display:none;}
+
+
+/* 썸네일list */
+.thumb_list {width:1200px;margin:0 auto;box-sizing:border-box;}
+.thumb_tab {margin-bottom:50px;text-align:center;font-size:0;}
+.thumb_tab li {display:inline-block;margin:.5%;}
+.thumb_tab li a {display:block;width:100%;line-height:50px;font-size:20px;border:1px solid #bbb;box-sizing:border-box;color:#bbb;}
+.thumb_tab li.on a {border:1px solid #0f4c82;color:#0f4c82;}
+.thumb_tab li a.on {border:1px solid #0f4c82;color:#0f4c82;}
+.thumb_tab2 li {width:49%;}
+.thumb_tab3 li {width:32%;}
+.thumb_tab4 li {width:24%;}
+.thumb_tab5 li {width:19%;}
+.thumb_tab6 li {width:15.7%;}
+.thumb_tab7 li {width:11%;}
+.thumb_list_con {width:100%;overflow:hidden;}
+.thumb_list_con li {width:32%;margin:10px .5%;float:left;}
+.thumb_list_con a {display:block;width:100%;position:relative;}
+.thumb_list_img {margin-bottom:10px;position:relative;height:256px;}
+.thumb_list_img img {display:block;width:100%;height:100%;}
+.thumb_list_cover {position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;background:rgba(0,0,0,.7);text-align:center;}
+.thumb_list_cover p {color:#fff;font-size:20px;width:100%;position:absolute;top:50%;left:0;transform:translateY(-50%);-ms-transform:translateY(-50%);-webkit-transform:translateY(-50%);}
+.thumb_list_txt {text-align:center;font-size:16px;}
+.thumb_list_title {color:#252525;}
+.thumb_list_date {color:#bbb;}
+.thumb_list_con .nothing {float:none;width:100%;text-align:center;font-size:18px;}
+
+/* 기본셋팅 */
+body {margin:0;padding:0;font-size:16px;color:#181818;width:100%;position:relative;letter-spacing:-1px;font-family: 'notokr';}
+#wrap {width:100%;min-width:1300px;position:relative;overflow:hidden;}
+#container {z-index:1;}
+
+.sub_title > h3 {font-size:40px;font-family:'notokr-medium';font-weight:bold; margin-left: 350px;}
+.sub_title > p {font-size:18px;margin-left: 350px;}
+

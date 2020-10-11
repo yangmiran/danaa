@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration PUBLIC
+"-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.kh.danaa.member.model.vo.Member" alias="Member" />
+		<typeAlias type="com.kh.danaa.reservation.model.vo.Reservation" alias="Reservation" />
+		<typeAlias type="com.kh.danaa.doctor.model.vo.Doctor" alias="Doctor" />
+		<typeAlias type="com.kh.danaa.reservation.model.vo.Askform" alias="Askform" />
+		<typeAlias type="com.kh.danaa.qna.model.vo.Qna" alias="Qna" />
+		<typeAlias type="com.kh.danaa.notice.model.vo.Notice" alias="Notice" />
+		<typeAlias type="com.kh.danaa.event.model.vo.Event" alias="Event" />
+		<typeAlias type="com.kh.danaa.medical.model.vo.Medical" alias="Medical" />
+		<typeAlias type="com.kh.danaa.admin.model.vo.Admin" alias="Admin" />
+		<typeAlias type="com.kh.danaa.review.model.vo.Review" alias="Review" />
+		<typeAlias type="com.kh.danaa.popup.model.vo.Popup" alias="Popup" />
+		<typeAlias type="com.kh.danaa.banner.model.vo.Banner" alias="Banner" />
+		<typeAlias type="com.kh.danaa.recomment.model.vo.Recomment" alias="Recomment"/>
+	</typeAliases>
+
+	<mappers>
+		<mapper resource="mappers/member-mapper.xml" />
+		<mapper resource="mappers/reservation-mapper.xml" />
+		<mapper resource="mappers/qna-mapper.xml" />
+		<mapper resource="mappers/notice-mapper.xml" />
+		<mapper resource="mappers/event-mapper.xml" />
+		<mapper resource="mappers/medical-mapper.xml" />
+		<mapper resource="mappers/admin-mapper.xml" />
+		<mapper resource="mappers/review-mapper.xml" />
+		<mapper resource="mappers/popup-mapper.xml" />
+		<mapper resource="mappers/banner-mapper.xml" />
+		<mapper resource="mappers/recomment-mapper.xml"/>
+		<mapper resource="mappers/doctor-mapper.xml" />
+	</mappers>
+</configuration>
