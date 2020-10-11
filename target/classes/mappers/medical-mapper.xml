@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+"-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="medicalMapper">
+
+	<resultMap id="resultList" type="Medical">
+		<id property="md_num" column="md_num" />
+		<result property="md_name" column="md_name"/>
+		<result property="md_tag" column="md_tag"/>
+		<result property="md_cont" column="md_cont"/>
+		<result property="md_filename" column="md_filename"/>
+	</resultMap>
+	
+	<!-- 진료과목 리스트 -->
+	<select id="selectList" resultMap="resultList">
+		select * from medical
+	</select>
+	
+	<!-- 진료과목 제목으로 검색 -->
+	<select id="selectSearchName" parameterType="string" resultMap="resultList">
+		select * from medical
+		where md_name like '%' || #{ keyword } || '%' 
+	</select>
+	
+	<!-- 진료과목 리스트 -->
+	<select id="selectMedical" resultType="Medical">
+		select * from medical
+	</select>
+	
+	<!-- <select id="selectSearchList" parameterType="string" resultMap="resultList">
+		select * from member 
+		where md_name = #{ keyword }
+	</select> -->
+</mapper>

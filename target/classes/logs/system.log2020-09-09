@@ -1,0 +1,860 @@
+[14:28:07][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[14:28:10][WARN ][AbstractApplicationContext.java:557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSession' defined in class path resource [root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'mappers/reservation-mapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+[14:28:10][ERROR][ContextLoader.java:312] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSession' defined in class path resource [root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'mappers/reservation-mapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:830)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:400)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4689)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5155)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'mappers/reservation-mapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:501)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 21 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'mappers/reservation-mapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:121)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:98)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:498)
+	... 24 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'mappers/reservation-mapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:122)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.mapperElement(XMLConfigBuilder.java:373)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:119)
+	... 26 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:68)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:137)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:130)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	... 29 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 33 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 35 more
+[14:31:04][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[14:31:06][WARN ][AbstractApplicationContext.java:557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSession' defined in class path resource [root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'mappers/reservation-mapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+[14:31:06][ERROR][ContextLoader.java:312] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSession' defined in class path resource [root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'mappers/reservation-mapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:830)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:400)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4689)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5155)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'mappers/reservation-mapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:501)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 21 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'mappers/reservation-mapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:121)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:98)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:498)
+	... 24 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'mappers/reservation-mapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:122)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.mapperElement(XMLConfigBuilder.java:373)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:119)
+	... 26 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:68)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:137)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:130)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	... 29 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.kh.second.reservation.model.vo.ReservationPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 33 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.kh.second.reservation.model.vo.ReservationPage
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 35 more
+[14:32:16][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[14:32:18][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2569 ms
+[14:32:18][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[14:32:21][INFO ][FrameworkServlet.java:546] - Completed initialization in 2582 ms
+[14:32:26][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:32:26][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[14:32:26][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:32:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:32:27][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:32:29][WARN ][DispatcherServlet.java:1248] - No mapping for GET /danaa/moveRes.do
+[14:34:28][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[14:34:30][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2518 ms
+[14:34:30][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[14:34:33][INFO ][FrameworkServlet.java:546] - Completed initialization in 2350 ms
+[14:34:37][WARN ][DispatcherServlet.java:1248] - No mapping for GET /danaa/moveRes.do
+[14:36:31][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[14:36:34][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2506 ms
+[14:36:34][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[14:36:37][INFO ][FrameworkServlet.java:546] - Completed initialization in 2965 ms
+[14:36:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:36:38][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:36:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:36:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:36:39][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:37:12][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[14:37:15][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2639 ms
+[14:37:15][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[14:37:17][INFO ][FrameworkServlet.java:546] - Completed initialization in 2434 ms
+[14:37:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:37:17][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:37:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:37:17][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:37:18][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:37:56][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:37:56][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:37:56][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:37:56][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:37:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:38:26][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:38:26][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:38:26][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:38:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:38:26][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:39:14][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:39:14][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:39:14][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:39:14][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:39:14][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:39:27][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:39:27][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:39:27][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:39:27][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:39:27][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:40:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:40:29][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:40:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:40:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:40:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:40:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:40:30][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:40:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:40:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:40:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:40:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:40:31][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:40:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:40:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:40:31][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:40:46][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:40:46][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:40:46][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:40:46][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:40:46][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:41:14][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:41:14][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:41:14][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:41:14][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:41:14][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:41:33][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:41:33][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:41:33][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:41:33][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:41:33][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[14:41:44][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[14:41:44][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[14:41:44][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[14:41:44][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[14:41:44][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:33:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:33:29][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:33:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:33:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:33:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:34:18][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:34:18][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:34:18][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:34:18][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:34:18][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:34:43][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:34:43][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:34:43][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:34:43][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:34:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:34:44][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:34:44][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:34:44][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:34:44][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:34:44][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:36:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:36:55][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:36:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:36:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:36:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:37:01][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:37:01][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:37:01][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:37:01][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:37:02][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:38:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:38:10][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:38:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:38:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:38:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:41:18][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:41:18][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:41:18][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:41:18][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:41:18][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:41:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:41:50][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:41:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:41:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:41:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:43:07][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:43:07][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:43:07][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:43:07][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:43:07][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:46:07][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:46:07][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:46:07][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:46:07][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:46:07][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:47:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:47:30][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:47:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:47:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:47:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:47:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:47:31][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:47:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:47:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:47:31][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:50:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:50:48][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:50:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:50:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:50:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:52:07][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:52:07][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:52:07][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:52:07][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:52:07][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:54:06][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:54:06][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:54:06][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:54:06][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:54:06][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:54:09][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:54:09][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:54:09][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:54:09][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:54:09][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[15:55:03][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[15:55:03][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[15:55:03][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[15:55:03][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[15:55:03][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:18:12][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:18:12][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:18:12][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:18:12][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:18:12][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:20:05][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[16:20:08][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2644 ms
+[16:20:08][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[16:20:10][INFO ][FrameworkServlet.java:546] - Completed initialization in 2519 ms
+[16:20:11][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:20:11][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:20:11][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:20:11][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:20:12][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:38:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:38:41][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:38:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:38:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:38:42][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:39:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:39:41][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:39:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:39:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:39:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:40:33][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:40:33][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:40:33][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:40:33][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:40:33][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:42:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:42:38][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:42:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:42:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:42:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:42:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:42:41][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:42:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:42:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:42:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:47:15][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:47:15][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:47:15][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:47:15][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:47:16][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:47:27][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:47:27][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:47:27][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:47:27][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:47:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:47:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:47:35][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:47:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:47:35][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:47:35][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:51:15][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:51:15][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:51:15][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:51:15][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:51:15][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:54:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:54:55][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:54:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:54:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:54:56][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:56:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:56:22][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:56:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:56:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:56:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:57:36][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:57:36][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:57:36][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:57:36][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:57:36][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:58:26][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:58:26][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:58:26][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:58:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:58:26][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[16:59:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[16:59:35][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[16:59:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[16:59:35][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[16:59:35][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:03:32][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:03:32][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[17:03:32][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:03:32][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:03:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:06:24][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:06:24][DEBUG][LoggerInterceptor.java:27] - /danaa/moveNres.do
+[17:06:24][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:06:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:06:25][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:07:39][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:07:39][DEBUG][LoggerInterceptor.java:27] - /danaa/moveNres.do
+[17:07:39][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:07:39][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:07:39][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:08:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:08:31][DEBUG][LoggerInterceptor.java:27] - /danaa/moveNres.do
+[17:08:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:08:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:08:31][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:09:16][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:09:16][DEBUG][LoggerInterceptor.java:27] - /danaa/moveNres.do
+[17:09:16][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:09:16][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:09:17][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:16:11][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[17:16:14][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2864 ms
+[17:16:14][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[17:16:17][INFO ][FrameworkServlet.java:546] - Completed initialization in 2774 ms
+[17:16:26][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:16:26][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[17:16:26][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:16:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:16:27][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:17:00][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:17:00][DEBUG][LoggerInterceptor.java:27] - /danaa/insertRes.do
+[17:17:00][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:17:00][WARN ][AbstractHandlerExceptionResolver.java:197] - Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'reservation' on field 'res_birth': rejected value [891215]; codes [typeMismatch.reservation.res_birth,typeMismatch.res_birth,typeMismatch.java.sql.Date,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [reservation.res_birth,res_birth]; arguments []; default message [res_birth]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.sql.Date' for property 'res_birth'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.sql.Date] for value '891215'; nested exception is java.lang.IllegalArgumentException]]
+[17:17:00][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:18:27][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[17:18:29][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2528 ms
+[17:18:29][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[17:18:32][INFO ][FrameworkServlet.java:546] - Completed initialization in 2472 ms
+[17:18:32][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:18:32][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[17:18:32][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:18:32][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:18:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:18:42][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:18:42][DEBUG][LoggerInterceptor.java:27] - /danaa/insertRes.do
+[17:18:42][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:18:43][ERROR][Slf4jSpyLogDelegator.java:114] - 1. PreparedStatement.setNull(8, 1111)
+java.sql.SQLException: 부적합한 열 유형: 1111
+	at oracle.jdbc.driver.OracleStatement.getInternalType(OracleStatement.java:3963)
+	at oracle.jdbc.driver.OraclePreparedStatement.setNullCritical(OraclePreparedStatement.java:4596)
+	at oracle.jdbc.driver.OraclePreparedStatement.setNull(OraclePreparedStatement.java:4578)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setNull(OraclePreparedStatementWrapper.java:1285)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.setNull(DelegatingPreparedStatement.java:108)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.setNull(DelegatingPreparedStatement.java:108)
+	at net.sf.log4jdbc.PreparedStatementSpy.setNull(PreparedStatementSpy.java:251)
+	at org.apache.ibatis.type.BaseTypeHandler.setParameter(BaseTypeHandler.java:61)
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:87)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:94)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:64)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:87)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy8.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.kh.danaa.reservation.model.dao.ReservationDao.insertMemReservation(ReservationDao.java:58)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl.insertMemReservation(ReservationServiceImpl.java:51)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$FastClassBySpringCGLIB$$1562c92a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$EnhancerBySpringCGLIB$$81454381.insertMemReservation(<generated>)
+	at com.kh.danaa.reservation.controller.ReservationController.insertMemReservationMethod(ReservationController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+[17:18:43][ERROR][Slf4jSpyLogDelegator.java:116] - 1. PreparedStatement.setNull(8, 1111)
+java.sql.SQLException: 부적합한 열 유형: 1111
+	at oracle.jdbc.driver.OracleStatement.getInternalType(OracleStatement.java:3963)
+	at oracle.jdbc.driver.OraclePreparedStatement.setNullCritical(OraclePreparedStatement.java:4596)
+	at oracle.jdbc.driver.OraclePreparedStatement.setNull(OraclePreparedStatement.java:4578)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setNull(OraclePreparedStatementWrapper.java:1285)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.setNull(DelegatingPreparedStatement.java:108)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.setNull(DelegatingPreparedStatement.java:108)
+	at net.sf.log4jdbc.PreparedStatementSpy.setNull(PreparedStatementSpy.java:251)
+	at org.apache.ibatis.type.BaseTypeHandler.setParameter(BaseTypeHandler.java:61)
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:87)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:94)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:64)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:87)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy8.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.kh.danaa.reservation.model.dao.ReservationDao.insertMemReservation(ReservationDao.java:58)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl.insertMemReservation(ReservationServiceImpl.java:51)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$FastClassBySpringCGLIB$$1562c92a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$EnhancerBySpringCGLIB$$81454381.insertMemReservation(<generated>)
+	at com.kh.danaa.reservation.controller.ReservationController.insertMemReservationMethod(ReservationController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+[17:18:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:20:37][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[17:20:40][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2883 ms
+[17:20:40][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[17:20:42][INFO ][FrameworkServlet.java:546] - Completed initialization in 2371 ms
+[17:20:42][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:20:42][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:20:42][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[17:20:42][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[17:20:42][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:20:42][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:20:42][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:20:42][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:20:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:20:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:20:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:20:54][DEBUG][LoggerInterceptor.java:27] - /danaa/insertRes.do
+[17:20:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:20:55][ERROR][Slf4jSpyLogDelegator.java:120] - 1. PreparedStatement.execute() insert into reservation 
+		values (RESERVATION_SEQ.NEXTVAL, 
+				'강아지', '891215', 'F', 
+				'010-7777-5555', 'gang@iei.kr', 2, 
+				to_date('09/25/2020 00:00:00', 'mm/dd/yyyy hh24:mi:ss'), '16:00', '', 1, null, 'user01'
+java.sql.SQLSyntaxErrorException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:208)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1046)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3613)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3714)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1378)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at net.sf.log4jdbc.PreparedStatementSpy.execute(PreparedStatementSpy.java:418)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy8.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.kh.danaa.reservation.model.dao.ReservationDao.insertMemReservation(ReservationDao.java:58)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl.insertMemReservation(ReservationServiceImpl.java:51)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$FastClassBySpringCGLIB$$1562c92a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$EnhancerBySpringCGLIB$$28336ca1.insertMemReservation(<generated>)
+	at com.kh.danaa.reservation.controller.ReservationController.insertMemReservationMethod(ReservationController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+[17:20:55][ERROR][Slf4jSpyLogDelegator.java:139] - 1. PreparedStatement.execute() FAILED! insert into reservation 
+		values (RESERVATION_SEQ.NEXTVAL, 
+				'강아지', '891215', 'F', 
+				'010-7777-5555', 'gang@iei.kr', 2, 
+				to_date('09/25/2020 00:00:00', 'mm/dd/yyyy hh24:mi:ss'), '16:00', '', 1, null, 'user01' {FAILED after 60 msec}
+java.sql.SQLSyntaxErrorException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:208)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1046)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3613)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3714)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1378)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at net.sf.log4jdbc.PreparedStatementSpy.execute(PreparedStatementSpy.java:418)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy8.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.kh.danaa.reservation.model.dao.ReservationDao.insertMemReservation(ReservationDao.java:58)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl.insertMemReservation(ReservationServiceImpl.java:51)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$FastClassBySpringCGLIB$$1562c92a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.kh.danaa.reservation.model.service.ReservationServiceImpl$$EnhancerBySpringCGLIB$$28336ca1.insertMemReservation(<generated>)
+	at com.kh.danaa.reservation.controller.ReservationController.insertMemReservationMethod(ReservationController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+[17:20:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:23:22][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[17:23:25][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2680 ms
+[17:23:25][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[17:23:27][INFO ][FrameworkServlet.java:546] - Completed initialization in 2377 ms
+[17:23:42][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:23:42][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[17:23:42][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:23:42][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:23:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:23:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:23:57][DEBUG][LoggerInterceptor.java:27] - /danaa/insertRes.do
+[17:23:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:23:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:23:58][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:28:06][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:28:06][DEBUG][LoggerInterceptor.java:27] - /danaa/insertRes.do
+[17:28:06][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:28:06][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:28:07][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:28:15][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[17:28:18][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2937 ms
+[17:28:18][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[17:28:20][INFO ][FrameworkServlet.java:546] - Completed initialization in 2512 ms
+[17:28:20][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:28:20][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[17:28:20][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:28:20][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:28:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:32:15][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:32:15][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[17:32:15][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:32:15][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:32:15][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:34:16][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:34:16][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[17:34:16][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:34:16][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:34:16][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:34:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:34:23][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[17:34:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:34:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:34:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:35:36][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:35:36][DEBUG][LoggerInterceptor.java:27] - /danaa/moveRes.do
+[17:35:36][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:35:36][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:35:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:36:43][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:36:43][DEBUG][LoggerInterceptor.java:27] - /danaa/moveNres.do
+[17:36:43][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:36:43][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:36:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============

@@ -1,0 +1,1845 @@
+[09:33:45][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[09:33:48][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 3050 ms
+[09:33:48][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[09:33:52][INFO ][FrameworkServlet.java:546] - Completed initialization in 3624 ms
+[09:53:28][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[09:53:31][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2883 ms
+[09:53:31][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[09:53:34][INFO ][FrameworkServlet.java:546] - Completed initialization in 3138 ms
+[09:53:46][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:53:46][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[09:53:46][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:53:47][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:53:49][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:53:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:53:50][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[09:53:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:53:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:53:50][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:53:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:53:50][INFO ][MedicalController.java:144] - mainMedical.do run..
+[09:53:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:53:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:53:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:53:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:54:24][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:54:24][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[09:54:24][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:54:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:54:24][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:54:24][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:54:24][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[09:54:24][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:54:24][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:54:24][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:54:24][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:54:24][INFO ][MedicalController.java:144] - mainMedical.do run..
+[09:54:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:54:24][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:54:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:54:24][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:54:26][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:54:26][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[09:54:26][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:54:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:54:26][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:54:26][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:54:26][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[09:54:26][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:54:26][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:54:26][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:54:26][INFO ][MedicalController.java:144] - mainMedical.do run..
+[09:54:26][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:54:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:54:26][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:54:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:54:26][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:54:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:54:31][DEBUG][LoggerInterceptor.java:27] - /danaa/qlist.do
+[09:54:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:54:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:54:31][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:54:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:54:31][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:54:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:54:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:54:31][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:54:34][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:54:34][DEBUG][LoggerInterceptor.java:27] - /danaa/moveQwrite.do
+[09:54:34][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:54:34][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:54:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:54:34][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:54:34][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:54:34][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:54:34][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:54:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:16][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:16][DEBUG][LoggerInterceptor.java:27] - /danaa/VerifyRecaptcha.do
+[09:55:16][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:16][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:16][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:20][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:20][DEBUG][LoggerInterceptor.java:27] - /danaa/VerifyRecaptcha.do
+[09:55:20][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:21][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:21][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:22][DEBUG][LoggerInterceptor.java:27] - /danaa/qinsert.do
+[09:55:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:22][DEBUG][LoggerInterceptor.java:27] - /danaa/qlist.do
+[09:55:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:22][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:55:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:27][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:27][DEBUG][LoggerInterceptor.java:27] - /danaa/movePwdCheck.do
+[09:55:27][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:27][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:28][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:55:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:28][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:35][DEBUG][LoggerInterceptor.java:27] - /danaa/pwdCheck.do
+[09:55:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:35][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:35][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:36][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:36][DEBUG][LoggerInterceptor.java:27] - /danaa/movePwdCheck.do
+[09:55:36][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:36][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:36][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:36][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:36][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:55:36][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:36][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:36][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:39][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:39][DEBUG][LoggerInterceptor.java:27] - /danaa/pwdCheck.do
+[09:55:39][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:39][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:39][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:39][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:39][DEBUG][LoggerInterceptor.java:27] - /danaa/qdetail.do
+[09:55:39][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:39][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:40][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:40][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:40][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:55:40][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:40][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:40][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:44][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:44][DEBUG][LoggerInterceptor.java:27] - /danaa/qUpView.do
+[09:55:44][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:44][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:44][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:44][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:44][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:55:44][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:44][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:44][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:50][DEBUG][LoggerInterceptor.java:27] - /danaa/qUpdate.do
+[09:55:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:50][INFO ][QnaController.java:306] - 
+[09:55:50][INFO ][QnaController.java:307] - 
+[09:55:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:50][DEBUG][LoggerInterceptor.java:27] - /danaa/qlist.do
+[09:55:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:50][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:55:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:59][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:59][DEBUG][LoggerInterceptor.java:27] - /danaa/loginpage.do
+[09:55:59][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:59][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:59][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:55:59][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:55:59][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:55:59][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:55:59][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:55:59][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:09][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:09][DEBUG][LoggerInterceptor.java:27] - /danaa/login.do
+[09:56:09][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:09][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:09][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:10][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[09:56:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:10][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[09:56:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:10][INFO ][MedicalController.java:144] - mainMedical.do run..
+[09:56:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:10][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:12][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:12][DEBUG][LoggerInterceptor.java:27] - /danaa/qlist.do
+[09:56:12][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:12][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:12][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:12][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:12][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:12][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:12][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:12][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:14][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:14][DEBUG][LoggerInterceptor.java:27] - /danaa/qdetail.do
+[09:56:14][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:14][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:14][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:14][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:14][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:14][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:14][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:14][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:17][DEBUG][LoggerInterceptor.java:27] - /danaa/moveReply.do
+[09:56:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:17][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:17][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:17][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:17][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:17][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:22][DEBUG][LoggerInterceptor.java:27] - /danaa/qrinsert.do
+[09:56:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:22][DEBUG][LoggerInterceptor.java:27] - /danaa/qlist.do
+[09:56:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:22][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:24][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:24][DEBUG][LoggerInterceptor.java:27] - /danaa/qrdetail.do
+[09:56:24][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:24][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:24][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:24][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:24][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:24][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:26][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:26][DEBUG][LoggerInterceptor.java:27] - /danaa/qlist.do
+[09:56:26][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:26][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:26][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:26][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:26][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:26][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:27][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:27][DEBUG][LoggerInterceptor.java:27] - /danaa/qdetail.do
+[09:56:27][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:27][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:27][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:27][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:27][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:27][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:27][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:27][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:28][DEBUG][LoggerInterceptor.java:27] - /danaa/qdelete.do
+[09:56:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:28][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:28][DEBUG][LoggerInterceptor.java:27] - /danaa/qlist.do
+[09:56:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:28][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:28][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:28][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:38][DEBUG][LoggerInterceptor.java:27] - /danaa/qsearch.do
+[09:56:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:39][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:39][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:39][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:39][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:39][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:41][DEBUG][LoggerInterceptor.java:27] - /danaa/qdetail.do
+[09:56:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:41][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:43][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:43][DEBUG][LoggerInterceptor.java:27] - /danaa/qlist.do
+[09:56:43][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:43][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:43][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:43][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:43][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:43][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:48][DEBUG][LoggerInterceptor.java:27] - /danaa/elist.do
+[09:56:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:48][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:51][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:51][DEBUG][LoggerInterceptor.java:27] - /danaa/proEvent.do
+[09:56:51][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:51][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:51][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:51][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:51][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:51][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:51][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:51][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:53][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:53][DEBUG][LoggerInterceptor.java:27] - /danaa/endEvent.do
+[09:56:53][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:53][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:53][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:53][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:53][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:53][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:53][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:53][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:54][DEBUG][LoggerInterceptor.java:27] - /danaa/elist.do
+[09:56:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:54][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:54][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:54][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:57][DEBUG][LoggerInterceptor.java:27] - /danaa/moveEwrite.do
+[09:56:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:56:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:56:57][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:56:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:56:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:56:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:57:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:57:55][DEBUG][LoggerInterceptor.java:27] - /danaa/einsert.do
+[09:57:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:57:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:57:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:57:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:57:55][DEBUG][LoggerInterceptor.java:27] - /danaa/elist.do
+[09:57:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:57:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:57:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:57:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:57:55][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:57:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:57:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:57:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:57:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:57:57][DEBUG][LoggerInterceptor.java:27] - /danaa/edetail.do
+[09:57:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:57:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:57:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:57:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:57:57][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:57:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:57:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:57:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:06][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:06][DEBUG][LoggerInterceptor.java:27] - /danaa/edelete.do
+[09:58:06][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:06][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:06][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:06][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:06][DEBUG][LoggerInterceptor.java:27] - /danaa/elist.do
+[09:58:06][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:06][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:06][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:06][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:06][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:58:06][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:06][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:06][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:10][DEBUG][LoggerInterceptor.java:27] - /danaa/elist.do
+[09:58:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:10][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:58:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:19][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:19][DEBUG][LoggerInterceptor.java:27] - /danaa/nlist.do
+[09:58:19][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:19][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:19][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:19][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:19][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:58:19][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:19][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:19][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:23][DEBUG][LoggerInterceptor.java:27] - /danaa/moveNwrite.do
+[09:58:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:23][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:58:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:38][DEBUG][LoggerInterceptor.java:27] - /danaa/ninsert.do
+[09:58:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:38][DEBUG][LoggerInterceptor.java:27] - /danaa/nlist.do
+[09:58:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:38][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:58:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:40][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:40][DEBUG][LoggerInterceptor.java:27] - /danaa/ndetail.do
+[09:58:40][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:40][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:40][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:40][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:40][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:58:40][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:40][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:40][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:44][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:44][DEBUG][LoggerInterceptor.java:27] - /danaa/nUpView.do
+[09:58:44][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:44][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:44][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:45][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:58:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:50][DEBUG][LoggerInterceptor.java:27] - /danaa/nupdete.do
+[09:58:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:50][INFO ][NoticeController.java:212] - KakaoTalk_20200526_160511988.jpg
+[09:58:50][INFO ][NoticeController.java:213] - 
+[09:58:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:50][DEBUG][LoggerInterceptor.java:27] - /danaa/nlist.do
+[09:58:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:50][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:58:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:51][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:51][DEBUG][LoggerInterceptor.java:27] - /danaa/ndetail.do
+[09:58:51][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:51][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:51][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:51][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:51][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:58:51][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:51][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:51][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:53][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:53][DEBUG][LoggerInterceptor.java:27] - /danaa/nlist.do
+[09:58:53][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:53][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:53][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:53][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:53][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:58:53][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:53][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:53][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:58:59][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:58:59][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[09:58:59][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:58:59][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:58:59][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:59:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:59:31][DEBUG][LoggerInterceptor.java:27] - /danaa/plist.do
+[09:59:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:59:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:59:31][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:59:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:59:45][DEBUG][LoggerInterceptor.java:27] - /danaa/pdelete.do
+[09:59:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:59:45][INFO ][PopupController.java:120] - 번호!! : 4
+[09:59:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:59:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:59:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:59:45][DEBUG][LoggerInterceptor.java:27] - /danaa/plist.do
+[09:59:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:59:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:59:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:59:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:59:48][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[09:59:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:59:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:59:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:59:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:59:48][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[09:59:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:59:48][INFO ][MedicalController.java:144] - mainMedical.do run..
+[09:59:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:59:48][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:59:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:59:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:59:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:59:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:59:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:59:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:59:52][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[09:59:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:59:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:59:52][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:59:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:59:52][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[09:59:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:59:52][INFO ][MedicalController.java:144] - mainMedical.do run..
+[09:59:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[09:59:52][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[09:59:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[09:59:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:59:52][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[09:59:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[09:59:52][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:00:06][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:00:06][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[10:00:06][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:00:06][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:00:06][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:00:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:00:10][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdinfo.do
+[10:00:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:00:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:00:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:00:43][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:00:43][DEBUG][LoggerInterceptor.java:27] - /danaa/adupdate.do
+[10:00:43][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:00:43][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:00:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:00:43][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:00:43][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdinfo.do
+[10:00:43][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:00:43][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:00:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:00:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:00:52][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:00:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:00:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:00:52][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:00:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:00:52][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:00:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:00:52][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:00:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:00:52][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:00:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:00:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:00:52][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:00:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:00:52][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:01:02][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:01:02][DEBUG][LoggerInterceptor.java:27] - /danaa/plist.do
+[10:01:02][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:01:02][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:01:02][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:01:05][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:01:05][DEBUG][LoggerInterceptor.java:27] - /danaa/adbnlist.do
+[10:01:05][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:01:05][INFO ][BannerController.java:29] - BannerListPage.do run....
+[10:01:05][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:01:05][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:02:01][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:02:01][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:02:01][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:02:01][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:02:01][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:02:01][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:02:01][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:02:01][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:02:01][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:02:01][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:02:01][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:02:01][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:02:01][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:02:01][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:02:01][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:02:01][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:02:03][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:02:03][DEBUG][LoggerInterceptor.java:27] - /danaa/logout.do
+[10:02:03][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:02:03][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:02:03][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:02:03][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:02:03][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:02:03][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:02:03][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:02:03][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:02:03][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:02:03][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:02:03][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:02:03][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:02:03][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:02:03][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:02:03][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:02:03][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:02:03][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:02:03][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:02:03][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:02:11][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:02:11][DEBUG][LoggerInterceptor.java:27] - /danaa/loginpage.do
+[10:02:11][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:02:11][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:02:11][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:02:11][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:02:11][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:02:11][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:02:11][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:02:11][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:31][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:31][DEBUG][LoggerInterceptor.java:27] - /danaa/login.do
+[10:03:31][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:31][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:31][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:32][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:32][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:03:32][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:32][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:32][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:32][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:03:32][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:32][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:03:32][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:32][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:03:32][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:32][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:32][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:38][DEBUG][LoggerInterceptor.java:27] - /danaa/mypagemove.do
+[10:03:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:38][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:03:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:43][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:43][DEBUG][LoggerInterceptor.java:27] - /danaa/mypagemove.do
+[10:03:43][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:43][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:43][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:43][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:03:43][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:44][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:44][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:45][DEBUG][LoggerInterceptor.java:27] - /danaa/logout.do
+[10:03:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:45][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:03:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:45][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:03:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:45][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:03:45][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:45][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:03:45][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:45][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:45][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:47][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:47][DEBUG][LoggerInterceptor.java:27] - /danaa/loginpage.do
+[10:03:47][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:47][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:47][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:47][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:47][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:03:47][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:47][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:47][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:55][DEBUG][LoggerInterceptor.java:27] - /danaa/login.do
+[10:03:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:56][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:56][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:03:56][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:56][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:56][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:57][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:03:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:57][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:03:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:03:57][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:03:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:03:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:03:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:03:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:02][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:02][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[10:04:02][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:02][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:02][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:04][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:04][DEBUG][LoggerInterceptor.java:27] - /danaa/mlist.do
+[10:04:04][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:04][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:04][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:19][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:19][DEBUG][LoggerInterceptor.java:27] - /danaa/msearch.do
+[10:04:19][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:19][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:19][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:29][DEBUG][LoggerInterceptor.java:27] - /danaa/msearch.do
+[10:04:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:33][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:33][DEBUG][LoggerInterceptor.java:27] - /danaa/mlist.do
+[10:04:33][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:33][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:33][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:37][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:37][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:04:37][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:37][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:37][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:37][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:04:37][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:37][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:04:37][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:37][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:04:37][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:37][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:37][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:41][DEBUG][LoggerInterceptor.java:27] - /danaa/logout.do
+[10:04:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:41][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:04:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:41][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:04:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:41][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:04:41][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:41][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:04:41][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:41][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:41][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:44][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:44][DEBUG][LoggerInterceptor.java:27] - /danaa/loginpage.do
+[10:04:44][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:44][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:44][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:04:44][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:04:44][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:04:44][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:04:44][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:04:44][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:05:02][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:05:02][DEBUG][LoggerInterceptor.java:27] - /danaa/ncallback.do
+[10:05:02][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:05:03][INFO ][MemberController.java:262] - 166643768
+[10:05:03][INFO ][MemberController.java:263] - 30-39
+[10:05:03][INFO ][MemberController.java:273] - @N166643768
+[10:05:03][INFO ][MemberController.java:314] - 30
+[10:05:03][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:05:03][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:05:03][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:05:03][DEBUG][LoggerInterceptor.java:27] - /danaa/typepage.do
+[10:05:03][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:05:03][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:05:03][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:05:03][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:05:03][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:05:03][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:05:03][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:05:03][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:05:06][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:05:06][DEBUG][LoggerInterceptor.java:27] - /danaa/tospage.do
+[10:05:06][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:05:06][INFO ][MemberController.java:165] - 약관동의 페이지로 가는 길
+[10:05:06][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:05:06][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:05:06][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:05:06][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:05:06][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:05:06][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:05:06][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:05:08][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:05:08][DEBUG][LoggerInterceptor.java:27] - /danaa/enrollsnspage.do
+[10:05:08][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:05:08][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:05:09][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:05:09][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:05:09][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:05:09][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:05:09][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:05:09][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:06:47][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:06:47][DEBUG][LoggerInterceptor.java:27] - /danaa/msnsenroll.do
+[10:06:47][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:06:47][INFO ][MemberController.java:831] - sns 간편 회원가입을 위한 유효성 검사를 통과하지 못함
+[10:06:47][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:06:47][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:06:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:06:48][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:06:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:06:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:06:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:06:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:06:54][DEBUG][LoggerInterceptor.java:27] - /danaa/test4.do
+[10:06:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:06:54][INFO ][MemberController.java:996] - test4입니다
+[10:06:54][INFO ][MemberController.java:997] - test4 : Member [member_no=0, id=166643768, pwd=113rha#th, name=심수정, phone=01071322475, birth=, gender=F, email=, ag_email=Y, enroll_date=null, last_modified=null, child=null, status=null]
+[10:06:54][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:06:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:06:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:06:54][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:06:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:06:54][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:06:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:07:11][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:07:11][DEBUG][LoggerInterceptor.java:27] - /danaa/test4.do
+[10:07:11][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:07:11][INFO ][MemberController.java:996] - test4입니다
+[10:07:11][INFO ][MemberController.java:997] - test4 : Member [member_no=0, id=166643768, pwd=113rha#th, name=심수정, phone=01071322475, birth=, gender=F, email=, ag_email=Y, enroll_date=null, last_modified=null, child=null, status=null]
+[10:07:11][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:07:11][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:07:11][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:07:11][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:07:11][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:07:11][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:07:11][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:21][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:21][DEBUG][LoggerInterceptor.java:27] - /danaa/typepage.do
+[10:09:21][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:21][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:21][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:22][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:09:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:33][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:33][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:09:33][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:33][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:33][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:33][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:33][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:09:33][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:33][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:09:33][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:33][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:09:33][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:33][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:33][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:33][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:33][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:34][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:34][DEBUG][LoggerInterceptor.java:27] - /danaa/typepage.do
+[10:09:34][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:34][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:34][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:34][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:09:34][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:34][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:35][DEBUG][LoggerInterceptor.java:27] - /danaa/tospage.do
+[10:09:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:35][INFO ][MemberController.java:165] - 약관동의 페이지로 가는 길
+[10:09:35][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:35][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:35][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:09:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:35][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:35][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:38][DEBUG][LoggerInterceptor.java:27] - /danaa/enrollsnspage.do
+[10:09:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:38][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:09:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:43][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:43][DEBUG][LoggerInterceptor.java:27] - /danaa/loginpage.do
+[10:09:43][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:43][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:43][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:43][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:09:43][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:43][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:50][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:09:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:50][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:09:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:50][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:09:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:50][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:09:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:52][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:09:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:52][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:52][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:09:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:52][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:09:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:52][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:52][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:09:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:52][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:52][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:54][DEBUG][LoggerInterceptor.java:27] - /danaa/typepage.do
+[10:09:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:54][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:54][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:09:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:54][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:56][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:56][DEBUG][LoggerInterceptor.java:27] - /danaa/tospage.do
+[10:09:56][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:56][INFO ][MemberController.java:165] - 약관동의 페이지로 가는 길
+[10:09:56][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:56][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:56][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:56][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:09:56][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:56][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:56][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:58][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:58][DEBUG][LoggerInterceptor.java:27] - /danaa/enrollsnspage.do
+[10:09:58][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:58][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:58][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:09:58][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:09:58][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:09:58][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:09:58][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:09:58][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:10][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:10:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:10][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:10:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:10][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:10:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:10][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:11][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:11][DEBUG][LoggerInterceptor.java:27] - /danaa/loginpage.do
+[10:10:11][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:11][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:11][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:12][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:12][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:12][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:12][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:12][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:15][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:15][DEBUG][LoggerInterceptor.java:27] - /danaa/typepage.do
+[10:10:15][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:15][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:15][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:15][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:15][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:15][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:15][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:15][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:16][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:16][DEBUG][LoggerInterceptor.java:27] - /danaa/tospage.do
+[10:10:16][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:16][INFO ][MemberController.java:165] - 약관동의 페이지로 가는 길
+[10:10:16][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:16][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:16][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:16][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:16][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:16][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:16][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:17][DEBUG][LoggerInterceptor.java:27] - /danaa/enrollsnspage.do
+[10:10:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:17][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:18][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:18][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:18][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:18][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:18][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:18][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:20][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:20][DEBUG][LoggerInterceptor.java:27] - /danaa/typepage.do
+[10:10:20][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:20][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:20][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:21][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:21][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:21][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:21][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:21][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:23][DEBUG][LoggerInterceptor.java:27] - /danaa/tospage.do
+[10:10:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:23][INFO ][MemberController.java:165] - 약관동의 페이지로 가는 길
+[10:10:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:23][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:25][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:25][DEBUG][LoggerInterceptor.java:27] - /danaa/enrollsnspage.do
+[10:10:25][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:25][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:25][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:25][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:25][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:25][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:25][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:25][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:28][DEBUG][LoggerInterceptor.java:27] - /danaa/loginpage.do
+[10:10:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:28][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:28][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:28][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:35][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:35][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:35][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:36][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:36][DEBUG][LoggerInterceptor.java:27] - /danaa/typepage.do
+[10:10:36][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:36][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:37][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:37][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:37][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:37][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:39][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:39][DEBUG][LoggerInterceptor.java:27] - /danaa/tospage.do
+[10:10:39][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:39][INFO ][MemberController.java:165] - 약관동의 페이지로 가는 길
+[10:10:39][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:39][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:39][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:39][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:39][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:39][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:39][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:40][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:40][DEBUG][LoggerInterceptor.java:27] - /danaa/enrollsnspage.do
+[10:10:40][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:40][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:40][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:10:40][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:10:40][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:10:40][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:10:40][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:10:40][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:11:53][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:11:53][DEBUG][LoggerInterceptor.java:27] - /danaa/loginpage.do
+[10:11:53][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:11:53][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:11:53][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:11:53][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:11:53][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:11:53][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:11:53][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:11:53][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:09][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:09][DEBUG][LoggerInterceptor.java:27] - /danaa/login.do
+[10:12:09][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:09][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:09][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:10][DEBUG][LoggerInterceptor.java:27] - /danaa/loginpage.do
+[10:12:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:11][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:11][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:12:11][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:11][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:11][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:15][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:15][DEBUG][LoggerInterceptor.java:27] - /danaa/login.do
+[10:12:15][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:15][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:15][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:16][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:16][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:12:16][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:16][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:16][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:16][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:16][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:12:16][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:16][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:12:16][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:16][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:12:16][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:16][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:16][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:16][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:16][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:17][DEBUG][LoggerInterceptor.java:27] - /danaa/logout.do
+[10:12:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:17][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:17][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:17][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:12:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:17][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:17][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:17][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:12:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:17][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:12:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:17][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:12:17][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:17][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:17][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:17][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:19][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:19][DEBUG][LoggerInterceptor.java:27] - /danaa/typepage.do
+[10:12:19][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:19][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:19][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:19][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:19][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:12:19][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:19][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:19][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:20][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:20][DEBUG][LoggerInterceptor.java:27] - /danaa/tospage.do
+[10:12:20][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:20][INFO ][MemberController.java:165] - 약관동의 페이지로 가는 길
+[10:12:20][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:20][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:20][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:20][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:12:20][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:20][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:20][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:22][DEBUG][LoggerInterceptor.java:27] - /danaa/enrollpage.do
+[10:12:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:22][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:12:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:48][DEBUG][LoggerInterceptor.java:27] - /danaa/enrollpage.do
+[10:12:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:12:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:12:48][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:12:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:12:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:12:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:13:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:13:38][DEBUG][LoggerInterceptor.java:27] - /danaa/enrollpage.do
+[10:13:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:13:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:13:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:13:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:13:38][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:13:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:13:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:13:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:25:41][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[10:25:44][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 3189 ms
+[10:25:44][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[10:25:47][INFO ][FrameworkServlet.java:546] - Completed initialization in 3143 ms
+[10:25:58][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:25:58][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:25:58][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:25:59][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:25:59][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:25:59][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:25:59][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:25:59][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:25:59][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:25:59][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:25:59][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:25:59][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:26:00][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:26:00][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:26:00][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:26:00][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:28:18][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[10:28:21][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 3497 ms
+[10:28:21][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[10:28:25][INFO ][FrameworkServlet.java:546] - Completed initialization in 3563 ms
+[10:28:25][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:28:25][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:28:25][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:28:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:28:27][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:28:27][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:28:27][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:28:27][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:28:27][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:28:27][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:28:27][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:28:27][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:28:27][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:28:27][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:28:27][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:28:27][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:02][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:02][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:29:02][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:02][INFO ][ReviewController.java:63] - startPage1
+[10:29:02][INFO ][ReviewController.java:64] - endPage6
+[10:29:02][INFO ][ReviewController.java:79] - size6
+[10:29:02][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:02][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:08][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:08][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:29:08][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:08][INFO ][ReviewController.java:63] - startPage1
+[10:29:08][INFO ][ReviewController.java:64] - endPage6
+[10:29:08][INFO ][ReviewController.java:79] - size6
+[10:29:08][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:08][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:12][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:12][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:29:12][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:12][INFO ][ReviewController.java:63] - startPage1
+[10:29:12][INFO ][ReviewController.java:64] - endPage6
+[10:29:12][INFO ][ReviewController.java:79] - size6
+[10:29:12][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:12][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:15][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:15][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:29:15][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:15][INFO ][ReviewController.java:63] - startPage1177
+[10:29:15][INFO ][ReviewController.java:64] - endPage1182
+[10:29:15][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:15][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:15][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:15][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:29:15][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:15][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:15][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:16][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:16][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:29:16][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:16][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:16][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:16][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:16][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:29:16][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:16][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:16][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:29:16][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:16][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:29:16][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:16][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:16][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:16][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:20][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:20][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:29:20][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:20][INFO ][ReviewController.java:63] - startPage1
+[10:29:20][INFO ][ReviewController.java:64] - endPage6
+[10:29:20][INFO ][ReviewController.java:79] - size6
+[10:29:20][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:20][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:22][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:22][DEBUG][LoggerInterceptor.java:27] - /danaa/rdetail.do
+[10:29:22][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:22][INFO ][ReviewController.java:93] - rdetatil.do : 26
+[10:29:22][INFO ][ReviewController.java:98] - detailList3
+[10:29:22][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:22][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:33][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:33][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:29:33][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:33][INFO ][ReviewController.java:63] - startPage1
+[10:29:33][INFO ][ReviewController.java:64] - endPage6
+[10:29:33][INFO ][ReviewController.java:79] - size6
+[10:29:33][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:33][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:34][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:34][DEBUG][LoggerInterceptor.java:27] - /danaa/rdetail.do
+[10:29:34][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:34][INFO ][ReviewController.java:93] - rdetatil.do : 26
+[10:29:34][INFO ][ReviewController.java:98] - detailList3
+[10:29:34][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:35][DEBUG][LoggerInterceptor.java:27] - /danaa/reviewUpdateForm.do
+[10:29:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:35][INFO ][ReviewController.java:209] - review_no26
+[10:29:35][INFO ][ReviewController.java:212] - 업데이트 view 값 : 
+[10:29:35][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:35][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:48][DEBUG][LoggerInterceptor.java:27] - /danaa/rupdate.do
+[10:29:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:48][INFO ][ReviewController.java:239] - review26.jpg
+[10:29:48][INFO ][ReviewController.java:240] - 
+[10:29:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:48][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:48][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:29:48][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:48][INFO ][ReviewController.java:63] - startPage1
+[10:29:48][INFO ][ReviewController.java:64] - endPage6
+[10:29:48][INFO ][ReviewController.java:79] - size6
+[10:29:48][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:48][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:51][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:51][DEBUG][LoggerInterceptor.java:27] - /danaa/rdetail.do
+[10:29:51][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:51][INFO ][ReviewController.java:93] - rdetatil.do : 26
+[10:29:51][INFO ][ReviewController.java:98] - detailList3
+[10:29:51][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:51][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:54][DEBUG][LoggerInterceptor.java:27] - /danaa/rdelete.do
+[10:29:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:54][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:54][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:29:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:54][INFO ][ReviewController.java:63] - startPage1
+[10:29:54][INFO ][ReviewController.java:64] - endPage6
+[10:29:54][INFO ][ReviewController.java:79] - size6
+[10:29:54][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:29:56][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:29:56][DEBUG][LoggerInterceptor.java:27] - /danaa/reviewWriteForm.do
+[10:29:56][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:29:56][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:29:56][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:08][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:08][DEBUG][LoggerInterceptor.java:27] - /danaa/rinsert.do
+[10:30:08][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:08][INFO ][ReviewController.java:140] - originalFileNameorg.springframework.web.multipart.commons.CommonsMultipartFile@5efe70d9
+[10:30:08][INFO ][ReviewController.java:140] - reviewReview [review_no=0, review_title=확인용, review_writer=user01, review_content=확인용, review_original_filename=null, review_rename_filename=null, review_date=null, review_ref=0, review_readcount=0]
+[10:30:08][INFO ][ReviewController.java:145] - originalFileName03.jpg
+[10:30:08][INFO ][ReviewController.java:159] - reviewReview [review_no=0, review_title=확인용, review_writer=user01, review_content=확인용, review_original_filename=03.jpg, review_rename_filename=20200921103008807.jpg, review_date=null, review_ref=0, review_readcount=0]
+[10:30:08][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:08][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:08][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:08][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:30:08][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:08][INFO ][ReviewController.java:63] - startPage1
+[10:30:08][INFO ][ReviewController.java:64] - endPage6
+[10:30:08][INFO ][ReviewController.java:79] - size6
+[10:30:08][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:08][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:13][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:13][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:30:13][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:13][INFO ][ReviewController.java:63] - startPage1177
+[10:30:13][INFO ][ReviewController.java:64] - endPage1182
+[10:30:13][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:13][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:13][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:13][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:30:13][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:13][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:13][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:17][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:30:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:17][INFO ][ReviewController.java:63] - startPage1
+[10:30:17][INFO ][ReviewController.java:64] - endPage6
+[10:30:17][INFO ][ReviewController.java:79] - size6
+[10:30:17][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:17][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:19][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:19][DEBUG][LoggerInterceptor.java:27] - /danaa/rdetail.do
+[10:30:19][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:19][INFO ][ReviewController.java:93] - rdetatil.do : 27
+[10:30:19][INFO ][ReviewController.java:98] - detailList3
+[10:30:19][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:19][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:23][DEBUG][LoggerInterceptor.java:27] - /danaa/rdetail.do
+[10:30:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:23][INFO ][ReviewController.java:93] - rdetatil.do : 25
+[10:30:23][INFO ][ReviewController.java:98] - detailList3
+[10:30:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:24][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:24][DEBUG][LoggerInterceptor.java:27] - /danaa/rdetail.do
+[10:30:24][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:24][INFO ][ReviewController.java:93] - rdetatil.do : 24
+[10:30:24][INFO ][ReviewController.java:98] - detailList3
+[10:30:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:24][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:25][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:25][DEBUG][LoggerInterceptor.java:27] - /danaa/rdetail.do
+[10:30:25][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:25][INFO ][ReviewController.java:93] - rdetatil.do : 23
+[10:30:25][INFO ][ReviewController.java:98] - detailList3
+[10:30:25][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:25][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:27][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:27][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:30:27][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:27][INFO ][ReviewController.java:63] - startPage1
+[10:30:27][INFO ][ReviewController.java:64] - endPage6
+[10:30:27][INFO ][ReviewController.java:79] - size6
+[10:30:27][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:27][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:29][DEBUG][LoggerInterceptor.java:27] - /danaa/rdetail.do
+[10:30:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:29][INFO ][ReviewController.java:93] - rdetatil.do : 31
+[10:30:29][INFO ][ReviewController.java:98] - detailList2
+[10:30:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:34][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:34][DEBUG][LoggerInterceptor.java:27] - /danaa/rdelete.do
+[10:30:34][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:34][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:34][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:34][DEBUG][LoggerInterceptor.java:27] - /danaa/rlist.do
+[10:30:34][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:34][INFO ][ReviewController.java:63] - startPage1
+[10:30:34][INFO ][ReviewController.java:64] - endPage6
+[10:30:34][INFO ][ReviewController.java:79] - size6
+[10:30:34][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:30:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:30:35][DEBUG][LoggerInterceptor.java:27] - /danaa/rdetail.do
+[10:30:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:30:35][INFO ][ReviewController.java:93] - rdetatil.do : 25
+[10:30:36][INFO ][ReviewController.java:98] - detailList3
+[10:30:36][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:30:36][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:31:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:31:23][DEBUG][LoggerInterceptor.java:27] - /danaa/loginpage.do
+[10:31:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:31:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:31:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:31:24][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:31:24][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:31:24][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:31:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:31:24][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:31:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:31:29][DEBUG][LoggerInterceptor.java:27] - /danaa/login.do
+[10:31:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:31:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:31:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:31:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:31:30][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:31:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:31:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:31:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:31:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:31:30][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:31:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:31:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:31:30][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:31:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:31:30][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:31:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:31:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:31:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:31:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:31:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:31:35][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[10:31:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:31:36][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:31:36][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:31:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:31:38][DEBUG][LoggerInterceptor.java:27] - /danaa/proEvent.do
+[10:31:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:31:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:31:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:31:39][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:31:39][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:31:39][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:31:39][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:31:39][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:32:23][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:32:23][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[10:32:23][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:32:23][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:32:23][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:32:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:32:29][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[10:32:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:32:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:32:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:32:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:32:35][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[10:32:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:32:35][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:32:35][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:32:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:32:35][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[10:32:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:32:35][INFO ][MedicalController.java:144] - mainMedical.do run..
+[10:32:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:32:35][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[10:32:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:32:35][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:32:35][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:32:35][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:32:35][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:32:36][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:32:36][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[10:32:36][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:32:36][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:32:36][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:33:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:33:29][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[10:33:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:33:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:33:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:33:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:33:30][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[10:33:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:33:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:33:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:50:25][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[10:50:27][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 2858 ms
+[10:50:27][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[10:50:31][INFO ][FrameworkServlet.java:546] - Completed initialization in 3035 ms
+[10:50:32][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:50:32][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[10:50:32][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:50:33][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:50:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:50:43][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:50:43][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[10:50:43][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:50:43][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:50:43][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:50:46][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:50:46][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[10:50:46][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:50:46][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:50:46][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:50:58][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:50:58][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[10:50:58][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:50:58][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:50:58][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:51:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:51:29][DEBUG][LoggerInterceptor.java:27] - /danaa/resByStatus.do
+[10:51:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:51:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:51:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:51:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:51:35][DEBUG][LoggerInterceptor.java:27] - /danaa/resByStatus.do
+[10:51:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:51:35][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:51:35][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:51:47][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:51:47][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[10:51:47][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:51:47][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:51:47][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:51:49][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:51:49][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[10:51:49][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:51:49][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:51:49][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:51:53][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:51:53][DEBUG][LoggerInterceptor.java:27] - /danaa/resByStatus.do
+[10:51:53][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:51:53][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:51:53][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:51:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:51:57][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[10:51:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:51:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:51:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:52:47][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:52:47][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[10:52:47][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:52:47][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:52:47][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:53:51][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:53:51][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[10:53:51][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:53:51][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:53:51][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:53:56][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:53:56][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[10:53:56][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:53:56][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:53:56][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:53:59][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:53:59][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[10:53:59][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:53:59][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:53:59][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:54:05][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:54:05][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[10:54:05][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:54:05][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:54:05][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:54:10][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:54:10][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdinfo.do
+[10:54:10][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:54:10][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:54:10][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:54:12][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:54:12][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[10:54:12][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:54:12][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:54:12][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:54:14][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:54:14][DEBUG][LoggerInterceptor.java:27] - /danaa/mlist.do
+[10:54:14][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:54:14][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:54:14][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:54:17][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:54:17][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[10:54:17][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:54:17][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:54:17][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:54:19][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:54:19][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[10:54:19][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:54:19][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:54:19][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:54:26][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:54:26][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdmain.do
+[10:54:26][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:54:26][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:54:26][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:54:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:54:29][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[10:54:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:54:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:54:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:54:32][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:54:32][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[10:54:32][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:54:32][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:54:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:54:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:54:35][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[10:54:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:54:35][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:54:35][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:57:33][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:57:33][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[10:57:33][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:57:33][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:57:33][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[10:57:55][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[10:57:55][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[10:57:55][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[10:57:55][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[10:57:55][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:00:27][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:00:27][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[11:00:27][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:00:27][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:00:27][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:00:50][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:00:50][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[11:00:50][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:00:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:00:50][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:00:53][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:00:53][DEBUG][LoggerInterceptor.java:27] - /danaa/moveCalendar.do
+[11:00:53][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:00:53][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:00:53][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:00:57][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:00:57][DEBUG][LoggerInterceptor.java:27] - /danaa/moveCalendar.do
+[11:00:57][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:00:57][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:00:57][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:01:00][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:01:00][DEBUG][LoggerInterceptor.java:27] - /danaa/moveCalendar.do
+[11:01:00][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:01:00][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:01:00][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:01:01][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:01:01][DEBUG][LoggerInterceptor.java:27] - /danaa/moveAdinfo.do
+[11:01:01][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:01:01][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:01:01][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:01:03][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:01:03][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[11:01:03][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:01:03][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:01:03][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:01:05][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:01:05][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[11:01:05][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:01:05][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:01:05][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:01:07][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:01:07][DEBUG][LoggerInterceptor.java:27] - /danaa/disableRes.do
+[11:01:07][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:01:07][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:01:07][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:01:09][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:01:09][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[11:01:09][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:01:09][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:01:09][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:03:32][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:03:32][DEBUG][LoggerInterceptor.java:27] - /danaa/mlist.do
+[11:03:32][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:03:32][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:03:32][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:03:39][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:03:39][DEBUG][LoggerInterceptor.java:27] - /danaa/mlist.do
+[11:03:39][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:03:39][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:03:39][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:04:13][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:04:13][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[11:04:13][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:04:13][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:04:13][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:04:16][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:04:16][DEBUG][LoggerInterceptor.java:27] - /danaa/adcheckRes.do
+[11:04:16][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:04:16][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:04:16][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[11:04:19][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[11:04:19][DEBUG][LoggerInterceptor.java:27] - /danaa/resByDoc.do
+[11:04:19][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[11:04:19][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[11:04:19][DEBUG][LoggerInterceptor.java:50] - ============== END ==============

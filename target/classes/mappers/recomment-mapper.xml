@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC
+"-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="recommentMapper">
+<resultMap type="Recomment" id="resultRecomment">
+<id column="recomment_no" property="recomment_no"/>
+<result column="recomment_writer" property="recomment_writer"/>
+<result column="recomment_content" property="recomment_content"/>
+<result column="recomment_level" property="recomment_level"/>
+<result column="recomment_ref" property="recomment_ref"/>
+<result column="recomment_reply_ref" property="recomment_reply_ref"/>
+<result column="recomment_reply_seq" property="recomment_reply_seq"/>
+<result column="recomment_date" property="recomment_date"/>
+</resultMap>
+
+<select id="selectList" parameterType="Recomment" resultMap="resultRecomment">
+select * from recomment where recomment_ref=#{ recomment_ref } order by recomment_date,recomment_level
+</select>
+
+<insert id="insertRecomment1" parameterType="Recomment"> 
+INSERT INTO RECOMMENT VALUES
+(RECOMMENT_SEQ.NEXTVAL,#{ recomment_writer }, #{ recomment_content }, 
+1, #{ recomment_ref }, RECOMMENT_SEQ.CURRVAL, 1, sysdate)    
+</insert>
+
+<insert id="insertRecomment2" parameterType="Recomment"> 
+INSERT INTO RECOMMENT VALUES
+(RECOMMENT_SEQ.NEXTVAL,#{ recomment_writer }, #{ recomment_content }, 
+2, #{ recomment_ref }, #{ recomment_reply_ref }, #{ recomment_reply_seq }, sysdate)    
+</insert>
+
+<update id="updateRecomment" parameterType="Recomment">
+update recomment set recomment_content=#{ recomment_content } where recomment_no = #{ recomment_no }
+</update>
+
+<delete id="deleteRecomment" parameterType="_int">
+delete from recomment where recomment_no = #{ recomment_no }
+</delete>
+ 
+</mapper>

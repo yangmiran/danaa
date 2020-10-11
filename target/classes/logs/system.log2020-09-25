@@ -1,0 +1,183 @@
+[17:44:36][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[17:44:40][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 3388 ms
+[17:44:40][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[17:44:43][INFO ][FrameworkServlet.java:546] - Completed initialization in 3816 ms
+[17:44:49][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:44:49][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[17:44:49][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:44:50][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:44:52][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:44:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:44:52][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[17:44:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:44:52][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:44:52][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[17:44:52][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:44:52][WARN ][DispatcherServlet.java:1248] - No mapping for POST /danaa/ntop5.do
+[17:44:52][INFO ][MedicalController.java:99] - mainMedical.do run..
+[17:44:53][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:44:53][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:44:53][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:44:53][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:46:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:46:29][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[17:46:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:46:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:46:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:46:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:46:29][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[17:46:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:46:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:46:29][INFO ][MedicalController.java:99] - mainMedical.do run..
+[17:46:29][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[17:46:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:46:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:46:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:46:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:46:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:46:29][WARN ][DispatcherServlet.java:1248] - No mapping for POST /danaa/ntop5.do
+[17:47:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:47:28][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[17:47:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:47:28][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:47:28][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:47:28][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:47:28][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[17:47:28][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:47:28][INFO ][MedicalController.java:99] - mainMedical.do run..
+[17:47:28][WARN ][DispatcherServlet.java:1248] - No mapping for POST /danaa/ntop5.do
+[17:47:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:47:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:47:29][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:47:29][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[17:47:29][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:47:29][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:47:29][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:47:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:47:30][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[17:47:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:47:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:47:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:47:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:47:30][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[17:47:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:47:30][INFO ][MedicalController.java:99] - mainMedical.do run..
+[17:47:30][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:47:30][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[17:47:30][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:47:30][WARN ][DispatcherServlet.java:1248] - No mapping for POST /danaa/ntop5.do
+[17:47:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:47:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:47:30][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:47:30][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:47:34][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:47:34][DEBUG][LoggerInterceptor.java:27] - /danaa/edetail.do
+[17:47:34][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:47:34][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:47:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:47:34][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:47:34][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[17:47:34][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:47:34][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:47:34][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:47:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:47:38][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[17:47:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:47:38][INFO ][MedicalController.java:99] - mainMedical.do run..
+[17:47:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:47:38][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[17:47:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:47:38][WARN ][DispatcherServlet.java:1248] - No mapping for POST /danaa/ntop5.do
+[17:47:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:47:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:47:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:47:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:50:28][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[17:50:31][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 3186 ms
+[17:50:31][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[17:50:35][INFO ][FrameworkServlet.java:546] - Completed initialization in 3910 ms
+[17:50:35][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:50:35][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[17:50:35][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:50:36][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:50:37][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:50:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:50:38][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[17:50:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:50:38][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:50:38][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[17:50:38][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:50:38][WARN ][DispatcherServlet.java:1248] - No mapping for POST /danaa/ntop5.do
+[17:50:38][INFO ][MedicalController.java:99] - mainMedical.do run..
+[17:50:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:50:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:50:38][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:50:38][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:52:24][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:52:24][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[17:52:24][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:52:24][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:52:24][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:52:25][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:52:25][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[17:52:25][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:52:25][INFO ][MedicalController.java:99] - mainMedical.do run..
+[17:52:25][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:52:25][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[17:52:25][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:52:25][WARN ][DispatcherServlet.java:1248] - No mapping for POST /danaa/ntop5.do
+[17:52:25][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:52:25][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:52:25][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:52:25][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:52:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:52:54][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[17:52:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:52:54][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:52:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:52:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:52:54][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[17:52:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:52:54][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:52:54][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[17:52:54][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:52:54][INFO ][MedicalController.java:99] - mainMedical.do run..
+[17:52:54][WARN ][DispatcherServlet.java:1248] - No mapping for POST /danaa/ntop5.do
+[17:52:54][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:52:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:52:54][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:52:54][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:54:05][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:54:05][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[17:54:05][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:54:05][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:54:06][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:54:06][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:54:06][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[17:54:06][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:54:06][INFO ][MedicalController.java:99] - mainMedical.do run..
+[17:54:06][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:54:06][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[17:54:06][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:54:06][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:54:06][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:54:06][WARN ][DispatcherServlet.java:1248] - No mapping for POST /danaa/ntop5.do
+[17:54:06][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:54:06][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:54:11][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:54:11][DEBUG][LoggerInterceptor.java:27] - /danaa/main.do
+[17:54:11][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:54:11][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:54:11][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:54:11][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:54:11][DEBUG][LoggerInterceptor.java:27] - /danaa/mainMedical.do
+[17:54:11][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:54:11][INFO ][MedicalController.java:99] - mainMedical.do run..
+[17:54:11][DEBUG][LoggerInterceptor.java:26] - ============== START ==============
+[17:54:11][DEBUG][LoggerInterceptor.java:27] - /danaa/footer.do
+[17:54:11][DEBUG][LoggerInterceptor.java:28] - -----------------------------------------------------------
+[17:54:11][WARN ][DispatcherServlet.java:1248] - No mapping for POST /danaa/ntop5.do
+[17:54:11][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:54:11][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
+[17:54:11][DEBUG][LoggerInterceptor.java:41] - ------------------------- view -------------------------
+[17:54:11][DEBUG][LoggerInterceptor.java:50] - ============== END ==============
